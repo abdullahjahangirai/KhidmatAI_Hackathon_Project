@@ -1,0 +1,456 @@
+[
+  {
+    "id": "civil_hospital_karachi",
+    "title": "Dr. Ruth K.M. Pfau Civil Hospital Karachi",
+    "category": "Healthcare",
+    "type": "Public Teaching Hospital",
+    "description": "Largest government teaching hospital in Karachi with 1,900 beds. Provides free/subsidized treatment to over 90% of patients. Affiliated with Dow Medical College and offers comprehensive medical, surgical, and specialized services.",
+    "address": "Markwick Road, Narayan Pura, Ranchore Line, Karachi, 74400, Sindh, Pakistan",
+    "phone_number": "+92-21-9921574-0-59",
+    "support": [
+      "Free/Subsidized Medical Treatment (90% patients)",
+      "Emergency Services (24/7)",
+      "General Medicine",
+      "Surgery",
+      "Ophthalmology",
+      "Trauma Center",
+      "Pediatrics",
+      "Obstetrics and Gynecology",
+      "Teaching and Training",
+      "Out-Patient Services"
+    ],
+    "eligibility": [
+      "All citizens of Pakistan",
+      "Lower-income patients prioritized",
+      "Walk-in patients accepted",
+      "Emergency cases prioritized",
+      "No documentation required for emergency services"
+    ],
+    "documents": [
+      "CNIC (for non-emergency cases)",
+      "Proof of residence (preferred)"
+    ],
+    "application": "Walk-in or direct admission. Take a token at reception counter. Emergency services available 24/7 without appointments.",
+    "locations": [
+      "Karachi",
+      "Sindh"
+    ],
+    "keywords": [
+      "free hospital",
+      "government hospital",
+      "public hospital",
+      "teaching hospital",
+      "emergency services",
+      "affordable healthcare",
+      "welfare hospital"
+    ],
+    "latitude": 24.8608,
+    "longitude": 67.0104,
+    "source_name": "Government of Sindh Health Department, Karachi Metropolitan Corporation",
+    "source_url": "https://kmdc.edu.pk",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "jpmc_karachi",
+    "title": "Jinnah Postgraduate Medical Centre (JPMC)",
+    "category": "Healthcare",
+    "type": "Public Teaching and Postgraduate Hospital",
+    "description": "Oldest postgraduate medical education and research center in Pakistan with 1,600 beds. Public-private partnership model providing tertiary care. Affiliated with Sindh Medical College and Jinnah Sindh Medical University.",
+    "address": "Rafiqui Shaheed Road, Karachi Cantonment, Karachi, 75510, Sindh, Pakistan",
+    "phone_number": "+92-21-38140600, +92-21-99215469",
+    "support": [
+      "Emergency Department",
+      "Postgraduate Medical Education",
+      "Tertiary Care Services",
+      "Research Facilities",
+      "Specialized Departments",
+      "Medical Consultation",
+      "Out-Patient Services",
+      "In-Patient Facilities",
+      "Diagnostics"
+    ],
+    "eligibility": [
+      "All Pakistan residents",
+      "Referred patients from other hospitals",
+      "Walk-in patients welcome",
+      "No income restriction"
+    ],
+    "documents": [
+      "CNIC",
+      "Hospital registration form"
+    ],
+    "application": "Visit emergency department or out-patient clinic. Book appointment through oladoc app or call helpline. Subsidized rates for low-income patients.",
+    "locations": [
+      "Karachi",
+      "Sindh"
+    ],
+    "keywords": [
+      "postgraduate medical center",
+      "teaching hospital",
+      "research institute",
+      "public hospital",
+      "tertiary care",
+      "emergency services",
+      "affordable hospital"
+    ],
+    "latitude": 24.8500,
+    "longitude": 67.0500,
+    "source_name": "JPMC Official Website",
+    "source_url": "https://www.jpmc.edu.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "siut_karachi",
+    "title": "Sindh Institute of Urology and Transplantation (SIUT)",
+    "category": "Healthcare",
+    "type": "Public Specialized Welfare Hospital",
+    "description": "Tertiary referral hospital specializing in nephrology, urology, dialysis, and kidney/organ transplantation. Founded by Dr. Adib Rizvi with mission 'We cannot let them die just because they cannot afford to live.' Provides all services completely free of cost.",
+    "address": "Sardar Yaqoob Ali Khan Road, Near Civil Hospital, Karachi, 74000, Sindh, Pakistan",
+    "phone_number": "+92-21-99215469",
+    "support": [
+      "Free Kidney Transplantation",
+      "Free Dialysis Services",
+      "Free Nephrology Treatment",
+      "Free Urology Services",
+      "Organ Transplant Services",
+      "Pediatric Care",
+      "Cardiac Transplant (first in Pakistan)",
+      "Liver Transplant Services",
+      "Satellite Centers (10+ locations)",
+      "Medical Research"
+    ],
+    "eligibility": [
+      "All Pakistani citizens",
+      "No income limitation",
+      "No documentation required for treatment",
+      "Patients from all provinces accepted",
+      "International patients (Afghan refugees, neighbors)"
+    ],
+    "documents": [
+      "Optional: CNIC for registration",
+      "No proof of income required"
+    ],
+    "application": "Direct walk-in to hospital or satellite centers. No appointment needed for initial consultation. Complete free treatment without any hidden charges.",
+    "locations": [
+      "Karachi",
+      "Sindh",
+      "Sukkur",
+      "Multiple satellite centers across Sindh"
+    ],
+    "keywords": [
+      "free kidney transplant",
+      "dialysis center",
+      "organ transplant",
+      "urology hospital",
+      "welfare hospital",
+      "free treatment",
+      "charitable hospital"
+    ],
+    "latitude": 24.8574,
+    "longitude": 67.0087,
+    "source_name": "SIUT Official Website",
+    "source_url": "https://siut.org/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "nicvd_karachi",
+    "title": "National Institute of Cardiovascular Diseases (NICVD)",
+    "category": "Healthcare",
+    "type": "Public Specialized Cardiac Hospital",
+    "description": "First tertiary cardiac care institute in South Asia. Flagship cardiology facility in Pakistan providing all cardiac services free of charge. Over 4,000 cardiac surgeries and 8,197 primary PCIs performed free. 8 satellite centers across Sindh.",
+    "address": "Rafiqui (H.J.) Shaheed Road, Karachi Cantonment, Karachi, 75510, Sindh, Pakistan",
+    "phone_number": "+92-42-34500888, +92-21-34500888",
+    "support": [
+      "Free Cardiac Surgery",
+      "Free Angiography",
+      "Free PCI (Primary Coronary Intervention)",
+      "Free Echocardiography",
+      "Free Cardiology Consultation",
+      "Cardiac Emergency Services",
+      "Pediatric Cardiology",
+      "Coronary Angioplasty",
+      "Pacemaker Implantation",
+      "Satellite Centers (8 locations)"
+    ],
+    "eligibility": [
+      "All Pakistan residents",
+      "No income restriction",
+      "All provinces covered",
+      "Afghan refugees accepted",
+      "Emergency cases prioritized"
+    ],
+    "documents": [
+      "CNIC (for documentation only)",
+      "No financial documents required"
+    ],
+    "application": "Visit emergency department or outpatient clinic. Can book appointment through oladoc or walk-in. All diagnostic procedures and treatments completely free.",
+    "locations": [
+      "Karachi",
+      "Sindh",
+      "Sukkur",
+      "Hyderabad",
+      "Tando Muhammad Khan"
+    ],
+    "keywords": [
+      "free cardiac surgery",
+      "heart hospital",
+      "cardiology center",
+      "angiography",
+      "public hospital",
+      "cardiac emergency",
+      "welfare hospital"
+    ],
+    "latitude": 24.8500,
+    "longitude": 67.0500,
+    "source_name": "NICVD Official Website",
+    "source_url": "https://nicvd.org/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "abbasi_shaheed_hospital",
+    "title": "Abbasi Shaheed Hospital (KMU Teaching Hospital)",
+    "category": "Healthcare",
+    "type": "Public Teaching Hospital",
+    "description": "Third-largest government hospital in Karachi with 850 beds and 18 operation theaters. Established in 1974 under Prime Minister Zulfikar Ali Bhutto. Named after Major Ziauddin Abbasi. Teaching hospital for Karachi Metropolitan University.",
+    "address": "Block 3 North Nazimabad/Sohail Road, Paposh Nagar, Karachi, 74700, Sindh, Pakistan",
+    "phone_number": "+92-21-99260300, +92-21-99260301",
+    "support": [
+      "Free Consultation (Token-based)",
+      "Emergency Services (24/7)",
+      "General Surgery",
+      "Orthopedics",
+      "Ophthalmology",
+      "Gynecology",
+      "Trauma Center",
+      "Nephrology",
+      "Dentistry",
+      "Internal Medicine",
+      "Out-Patient Services",
+      "Medical Education"
+    ],
+    "eligibility": [
+      "All citizens of Pakistan",
+      "Walk-in patients welcome",
+      "No income requirement",
+      "Emergency cases prioritized"
+    ],
+    "documents": [
+      "CNIC",
+      "Proof of residence (optional)"
+    ],
+    "application": "Walk-in to hospital. Take token at reception (no consultation charges). Emergency section open 24/7 without appointment.",
+    "locations": [
+      "Karachi",
+      "Sindh"
+    ],
+    "keywords": [
+      "free hospital",
+      "government hospital",
+      "teaching hospital",
+      "trauma center",
+      "public hospital",
+      "emergency services",
+      "affordable healthcare"
+    ],
+    "latitude": 24.9150,
+    "longitude": 67.0270,
+    "source_name": "Karachi Metropolitan University, City Government of Karachi",
+    "source_url": "https://kmdc.edu.pk/abbassi-shaheed-hospital/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "indus_hospital_korangi",
+    "title": "Indus Hospital & Health Network (Korangi Campus)",
+    "category": "Healthcare",
+    "type": "Private Sector Free Welfare Hospital",
+    "description": "Non-profit welfare hospital providing 100% free-of-cost quality healthcare. 300-bed tertiary care facility established in 2007. Part of nationwide network with 12+ hospitals providing free services. Pakistan's first paperless and cashless hospital.",
+    "address": "Plot C-76, Sector 31/5, Opposite Darussalam Society, Korangi Crossing, Karachi, 75190, Sindh, Pakistan",
+    "phone_number": "+92-21-35112709-17, +92-21-111-111-880",
+    "support": [
+      "100% Free Healthcare",
+      "Tertiary Care Services",
+      "Pediatric Oncology",
+      "Cardiac Services",
+      "Emergency Department",
+      "In-Patient Facilities",
+      "Out-Patient Services",
+      "Blood Bank Services",
+      "Physical Rehabilitation",
+      "Public Health Programs"
+    ],
+    "eligibility": [
+      "All Pakistan residents",
+      "No income restriction",
+      "No documentation required",
+      "Deserving and underprivileged patients",
+      "Patients from all provinces"
+    ],
+    "documents": [
+      "No documents required",
+      "CNIC optional"
+    ],
+    "application": "Visit hospital directly or call helpline 021-111-111-880. Complete registration and consultation free. No hidden charges. Computerized and cashless system ensures transparency.",
+    "locations": [
+      "Karachi",
+      "Sindh",
+      "Nationwide network (12+ hospitals)"
+    ],
+    "keywords": [
+      "free hospital",
+      "welfare hospital",
+      "non-profit organization",
+      "public health",
+      "tertiary care",
+      "emergency services",
+      "charitable hospital",
+      "affordable healthcare"
+    ],
+    "latitude": 24.8667,
+    "longitude": 67.1500,
+    "source_name": "Indus Hospital & Health Network Official Website",
+    "source_url": "https://indushospital.org.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "civil_hospital_hyderabad",
+    "title": "Civil Hospital Hyderabad (Liaquat University Hospital)",
+    "category": "Healthcare",
+    "type": "Public Teaching Hospital",
+    "description": "2,200-bed tertiary care hospital in Hyderabad, Sindh. One of largest teaching hospitals affiliated with Liaquat University of Medical & Health Sciences. Established in 1881, serves Sindh and neighboring Balochistan.",
+    "address": "Hyderabad, Sindh, Pakistan",
+    "phone_number": "Available at Hyderabad District Health Office",
+    "support": [
+      "Tertiary Care Services",
+      "Emergency Department",
+      "Teaching and Training",
+      "Medical Consultation",
+      "In-Patient Facilities",
+      "Out-Patient Services",
+      "Specialized Departments",
+      "Subsidized Treatment"
+    ],
+    "eligibility": [
+      "All Pakistan residents",
+      "Regional patients from Sindh and Balochistan",
+      "Low-income families prioritized",
+      "Emergency cases accepted"
+    ],
+    "documents": [
+      "CNIC",
+      "Proof of residence"
+    ],
+    "application": "Direct visit or referral from primary health centers. Register at reception. Subsidized rates for eligible patients.",
+    "locations": [
+      "Hyderabad",
+      "Sindh"
+    ],
+    "keywords": [
+      "public hospital",
+      "teaching hospital",
+      "tertiary care",
+      "free/subsidized treatment",
+      "government hospital",
+      "Sindh"
+    ],
+    "latitude": 25.4002,
+    "longitude": 68.3672,
+    "source_name": "Liaquat University of Medical & Health Sciences",
+    "source_url": "https://lumhs.edu.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "civil_hospital_sukkur",
+    "title": "Civil Hospital Sukkur (Ghulam Muhammad Mahar Medical College Hospital)",
+    "category": "Healthcare",
+    "type": "Public Teaching Hospital",
+    "description": "Major public teaching hospital established in 1880 during British Raj. Serves northern Sindh with 300 beds. Processes over 1 million outpatient visits annually. Free/low-cost services for large indigent population.",
+    "address": "Sukkur, Sindh, Pakistan",
+    "phone_number": "Available at Sukkur District Health Office",
+    "support": [
+      "Free/Low-Cost Healthcare",
+      "Emergency Services",
+      "Tertiary Care",
+      "Teaching and Research",
+      "Medical Consultation",
+      "In-Patient Facilities",
+      "Out-Patient Services",
+      "Specialized Departments",
+      "Public Health Initiatives"
+    ],
+    "eligibility": [
+      "All Pakistan residents",
+      "Northern Sindh, Lower Punjab, Balochistan patients",
+      "Low-income families",
+      "Emergency cases"
+    ],
+    "documents": [
+      "CNIC",
+      "Proof of residence (preferred)"
+    ],
+    "application": "Walk-in or referral from primary health centers. Direct admission for emergency cases.",
+    "locations": [
+      "Sukkur",
+      "Sindh"
+    ],
+    "keywords": [
+      "public hospital",
+      "free hospital",
+      "teaching hospital",
+      "emergency services",
+      "tertiary care",
+      "government hospital"
+    ],
+    "latitude": 27.7030,
+    "longitude": 68.9030,
+    "source_name": "Sindh Health Department",
+    "source_url": "https://sehealth.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "civil_hospital_nawabshah",
+    "title": "Civil Hospital Nawabshah (People's University Hospital)",
+    "category": "Healthcare",
+    "type": "Public Teaching Hospital",
+    "description": "1,500-bed tertiary care hospital affiliated with People's University of Medical and Health Sciences. Established in 1915. Serves Sindh and Balochistan with free/subsidized services.",
+    "address": "Nawabshah, Shaheed Benazirabad, Sindh, Pakistan",
+    "phone_number": "Available at Nawabshah District Health Office",
+    "support": [
+      "Tertiary Care Services",
+      "Emergency Department",
+      "Free/Subsidized Treatment",
+      "Teaching and Training",
+      "Medical Consultation",
+      "In-Patient Facilities",
+      "Out-Patient Services",
+      "Specialized Departments"
+    ],
+    "eligibility": [
+      "All Pakistan residents",
+      "Regional patients from Sindh and Balochistan",
+      "Low-income families",
+      "Emergency cases prioritized"
+    ],
+    "documents": [
+      "CNIC",
+      "Proof of residence"
+    ],
+    "application": "Direct visit or referral. Register at reception for subsidized/free treatment eligibility.",
+    "locations": [
+      "Nawabshah",
+      "Sindh"
+    ],
+    "keywords": [
+      "public hospital",
+      "teaching hospital",
+      "free treatment",
+      "tertiary care",
+      "government hospital",
+      "welfare hospital"
+    ],
+    "latitude": 26.2437,
+    "longitude": 68.4051,
+    "source_name": "People's University of Medical & Health Sciences",
+    "source_url": "https://pumhs.edu.pk/",
+    "verified_at": "2026-08-28"
+  }
+]

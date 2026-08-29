@@ -1,0 +1,472 @@
+[
+  {
+    "id": "alkhidmat_food_package_ration",
+    "title": "Alkhidmat Food Package (Ration)",
+    "category": "Food Support",
+    "type": "Ration Distribution",
+    "description": "Alkhidmat Foundation provides essential food packages to underserved and deserving families across Pakistan, including staple items needed for household cooking.",
+    "address": "Alkhidmat Foundation Head Office, 3km Khayaban-e-Jinnah, Lahore, Punjab, Pakistan",
+    "phone_number": "+92 42 3802 0222",
+    "support": [
+      "Flour",
+      "Rice",
+      "Cooking oil",
+      "Sugar",
+      "Pulses",
+      "Tea",
+      "Other essential food items"
+    ],
+    "eligibility": [
+      "Deserving and financially vulnerable families",
+      "Low-income households",
+      "Families living below the poverty line",
+      "Need-based beneficiary selection"
+    ],
+    "documents": [
+      "CNIC",
+      "Proof of residence",
+      "Family information",
+      "Income or financial-need information",
+      "Other documents requested by the local Alkhidmat office"
+    ],
+    "application": "Contact or visit the nearest Alkhidmat Foundation office or local distribution center. Beneficiaries are identified and verified through local teams and welfare networks.",
+    "locations": [
+      "Karachi",
+      "Lahore",
+      "Islamabad",
+      "Peshawar",
+      "Hyderabad",
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "Gilgit-Baltistan",
+      "Azad Jammu and Kashmir"
+    ],
+    "keywords": [
+      "Alkhidmat",
+      "ration",
+      "food package",
+      "food support",
+      "poor families",
+      "zakat",
+      "welfare"
+    ],
+    "latitude": 31.4697,
+    "longitude": 74.4017,
+    "source_name": "Alkhidmat Foundation Pakistan",
+    "source_url": "https://alkhidmat.org/donations/area-of-work/community-services/food-package-ration",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "alkhidmat_ramadan_food_pack",
+    "title": "Alkhidmat Ramadan Food Pack",
+    "category": "Food Support",
+    "type": "Ramadan Ration Package",
+    "description": "A Ramadan food assistance initiative providing essential food supplies to vulnerable and deserving families during Ramadan.",
+    "address": "Alkhidmat Foundation Head Office, 3km Khayaban-e-Jinnah, Lahore, Punjab, Pakistan",
+    "phone_number": "+92 42 3802 0222",
+    "support": [
+      "Flour",
+      "Rice",
+      "Sugar",
+      "Cooking oil",
+      "Pulses",
+      "Dates",
+      "Other Ramadan food essentials"
+    ],
+    "eligibility": [
+      "Widows and female-headed households",
+      "Daily wage earners",
+      "Unemployed families",
+      "Orphans and their families",
+      "Elderly people without financial support",
+      "Flood-affected and displaced families",
+      "Families living below the poverty line"
+    ],
+    "documents": [
+      "CNIC",
+      "Proof of residence",
+      "Family information",
+      "Income or need assessment information"
+    ],
+    "application": "Beneficiaries can contact their nearest Alkhidmat office or local Ramadan Food Hub. Local teams conduct need-based verification before distribution.",
+    "locations": [
+      "Karachi",
+      "Lahore",
+      "Hyderabad",
+      "Peshawar",
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "Gilgit-Baltistan",
+      "Azad Jammu and Kashmir"
+    ],
+    "keywords": [
+      "Ramadan ration",
+      "Alkhidmat",
+      "food pack",
+      "Ramadan food",
+      "ration distribution",
+      "iftar",
+      "poor families"
+    ],
+    "latitude": 31.4697,
+    "longitude": 74.4017,
+    "source_name": "Alkhidmat Foundation Pakistan",
+    "source_url": "https://www.alkhidmat.org/donations/islamic-giving/ramadan/food-pack",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "alkhidmat_ramadan_relief_food_program",
+    "title": "Alkhidmat Ramadan Relief Food Program",
+    "category": "Food Support",
+    "type": "Ration Distribution and Free Iftar Meals",
+    "description": "Alkhidmat Ramadan relief activities include ration distribution, roadside iftar points and Iftar Dastarkhwan for low-income families, laborers and travelers.",
+    "address": "Alkhidmat Foundation Khyber Pakhtunkhwa, Peshawar, Khyber Pakhtunkhwa, Pakistan",
+    "phone_number": "+92 91 5700000",
+    "support": [
+      "Ration packages",
+      "Flour",
+      "Rice",
+      "Cooking oil",
+      "Free iftar meals",
+      "Dates and water",
+      "Iftar Dastarkhwan",
+      "Subsidized bread through Sasti Roti initiatives"
+    ],
+    "eligibility": [
+      "Low-income families",
+      "Poor and deserving households",
+      "Daily wage workers",
+      "Laborers",
+      "Travelers",
+      "People unable to reach home before Iftar",
+      "Other food-insecure individuals"
+    ],
+    "documents": [
+      "CNIC where required",
+      "Proof of residence for ration assistance",
+      "Family information",
+      "Need assessment information"
+    ],
+    "application": "For ration assistance, contact the local Alkhidmat office or distribution point. Free roadside Iftar and Dastarkhwan meals are generally provided directly at designated locations without a formal application.",
+    "locations": [
+      "Peshawar",
+      "Charsadda",
+      "Kohat",
+      "Dera Ismail Khan",
+      "Mardan",
+      "Khyber Pakhtunkhwa"
+    ],
+    "keywords": [
+      "Alkhidmat",
+      "Ramadan relief",
+      "iftar",
+      "dastarkhwan",
+      "ration",
+      "free meal",
+      "Sasti Roti"
+    ],
+    "latitude": 34.0151,
+    "longitude": 71.5249,
+    "source_name": "Alkhidmat Foundation Khyber Pakhtunkhwa",
+    "source_url": "https://www.alkhidmat.org/about-us/latest/blog/alkhidmat-ramadan-relief-drive",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "saylani_dastarkhwan",
+    "title": "Saylani Dastarkhwan",
+    "category": "Food Support",
+    "type": "Free Meal Program",
+    "description": "Saylani Welfare's Dastarkhwan program provides freshly prepared nutritious meals through distribution centers for people facing food insecurity.",
+    "address": "Saylani Welfare International Trust, A-25 Bahadurabad Chowrangi, Karachi, Sindh, Pakistan",
+    "phone_number": "021-111-729-526",
+    "support": [
+      "Free cooked meals",
+      "Nutritious food",
+      "Daily meal support",
+      "Food assistance for people facing financial hardship"
+    ],
+    "eligibility": [
+      "Underprivileged individuals",
+      "Daily wage earners",
+      "Laborers",
+      "Students",
+      "Senior citizens",
+      "Unemployed people",
+      "Travelers",
+      "Families experiencing financial crisis"
+    ],
+    "documents": [],
+    "application": "No formal application is generally required for receiving meals. Visit a designated Saylani Dastarkhwan or food distribution center during operating hours.",
+    "locations": [
+      "Karachi",
+      "Sindh",
+      "Pakistan"
+    ],
+    "keywords": [
+      "Saylani",
+      "Dastarkhwan",
+      "free food",
+      "free meal",
+      "food distribution",
+      "poor people",
+      "daily meal"
+    ],
+    "latitude": 24.8894,
+    "longitude": 67.0795,
+    "source_name": "Saylani Welfare International Trust",
+    "source_url": "https://saylaniwelfare.com/services/food/saylani-dastarkhwan",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "edhi_langar_free_kitchen",
+    "title": "Edhi Langar Service Free Kitchen",
+    "category": "Food Support",
+    "type": "Free Meal / Langar",
+    "description": "Edhi Foundation operates free kitchen and Langar services providing nutritious meals to hungry and underserved people.",
+    "address": "Edhi Foundation Head Office, Mithadar, Karachi, Sindh, Pakistan",
+    "phone_number": "+92 21 32413232",
+    "support": [
+      "Free cooked meals",
+      "Nutritious food",
+      "Langar meals",
+      "Food assistance for underserved communities"
+    ],
+    "eligibility": [
+      "Hungry individuals",
+      "Poor and underserved people",
+      "People experiencing food insecurity",
+      "Individuals unable to afford regular meals"
+    ],
+    "documents": [],
+    "application": "No formal application is generally required for the free kitchen meal service. Visit an Edhi Langar or designated free-kitchen location.",
+    "locations": [
+      "Karachi",
+      "Islamabad",
+      "Multan",
+      "Other Edhi service locations across Pakistan"
+    ],
+    "keywords": [
+      "Edhi",
+      "Langar",
+      "free kitchen",
+      "free meal",
+      "food support",
+      "poor people",
+      "food bank"
+    ],
+    "latitude": 24.8547,
+    "longitude": 67.0123,
+    "source_name": "Edhi Foundation Pakistan",
+    "source_url": "https://www.edhi.org/langer-service-free-kitchen",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "edhi_food_bank_family_food_pack",
+    "title": "Edhi Food Bank and Family Food Pack",
+    "category": "Food Support",
+    "type": "Food Bank / Ration Package",
+    "description": "Edhi Foundation's food assistance services include family food packs, monthly food support and food distribution for people in need.",
+    "address": "Edhi Foundation Head Office, Mithadar, Karachi, Sindh, Pakistan",
+    "phone_number": "+92 21 32413232",
+    "support": [
+      "Family food packs",
+      "Monthly food support",
+      "Food for individuals",
+      "Dry ration support",
+      "Emergency food assistance"
+    ],
+    "eligibility": [
+      "Poor families",
+      "Food-insecure individuals",
+      "Deserving households",
+      "People affected by emergencies or disasters"
+    ],
+    "documents": [
+      "CNIC where required",
+      "Proof of residence where required",
+      "Family information",
+      "Need assessment information"
+    ],
+    "application": "Contact or visit the nearest Edhi Centre or relevant Edhi food assistance facility to inquire about available food packages and beneficiary registration.",
+    "locations": [
+      "Karachi",
+      "Islamabad",
+      "Multan",
+      "Pakistan-wide Edhi network"
+    ],
+    "keywords": [
+      "Edhi",
+      "food bank",
+      "family food pack",
+      "ration",
+      "food assistance",
+      "dry ration",
+      "welfare"
+    ],
+    "latitude": 24.8547,
+    "longitude": 67.0123,
+    "source_name": "Edhi Foundation Pakistan",
+    "source_url": "https://www.edhi.org/shop/category/food-bank-14",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "pbm_khana_sab_ka_langar",
+    "title": "Pakistan Bait-ul-Mal Khana Sab Ke Liye",
+    "category": "Food Support",
+    "type": "Free Food / Mobile Kitchen",
+    "description": "Pakistan Bait-ul-Mal's Khana Sab Ke Liye initiative provides free food to needy citizens including laborers, daily wagers, travelers, students and other deserving people.",
+    "address": "Pakistan Bait-ul-Mal Head Office, H-8/4, Islamabad, Pakistan",
+    "phone_number": "0800-66666",
+    "support": [
+      "Free cooked food",
+      "Food distribution through mobile kitchens",
+      "Meals for needy people",
+      "Emergency food support"
+    ],
+    "eligibility": [
+      "Poor and deserving individuals",
+      "Daily wage workers",
+      "Laborers",
+      "Unemployed people",
+      "Transit passengers",
+      "Students",
+      "Patient attendants",
+      "People temporarily unable to earn a livelihood"
+    ],
+    "documents": [],
+    "application": "Eligible individuals can obtain free food at designated Khana Sab Ke Liye food distribution points. The program is intended to provide food directly to deserving people and generally does not require a lengthy application.",
+    "locations": [
+      "Islamabad",
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "Gilgit-Baltistan",
+      "Pakistan"
+    ],
+    "keywords": [
+      "Pakistan Bait-ul-Mal",
+      "PBM",
+      "Khana Sab Ke Liye",
+      "free food",
+      "langar",
+      "mobile kitchen",
+      "food support"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Pakistan Bait-ul-Mal",
+    "source_url": "https://www.pbm.gov.pk/",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "pbm_shelter_home_food_support",
+    "title": "Pakistan Bait-ul-Mal Shelter Home Food Support",
+    "category": "Food Support",
+    "type": "Free Meals at Shelter Homes",
+    "description": "Pakistan Bait-ul-Mal Shelter Homes provide accommodation and food support to deserving people, including meals served according to an established menu.",
+    "address": "Pakistan Bait-ul-Mal Head Office, H-8/4, Islamabad, Pakistan",
+    "phone_number": "0800-66666",
+    "support": [
+      "Free accommodation",
+      "Breakfast",
+      "Dinner",
+      "Food support for shelter residents",
+      "Basic facilities for deserving people"
+    ],
+    "eligibility": [
+      "Homeless individuals",
+      "Poor and deserving people",
+      "Daily wage workers",
+      "Travelers",
+      "Patient attendants",
+      "Other people meeting shelter-home criteria"
+    ],
+    "documents": [
+      "CNIC where required",
+      "Basic identity information"
+    ],
+    "application": "Visit a Pakistan Bait-ul-Mal Shelter Home and follow the local registration or admission procedure. Food is provided to eligible shelter residents according to the shelter-home policy.",
+    "locations": [
+      "Islamabad",
+      "Karachi",
+      "Lahore",
+      "Peshawar",
+      "Quetta",
+      "Other PBM Shelter Home locations"
+    ],
+    "keywords": [
+      "PBM",
+      "Pakistan Bait-ul-Mal",
+      "shelter home",
+      "free food",
+      "breakfast",
+      "dinner",
+      "homeless support"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Pakistan Bait-ul-Mal",
+    "source_url": "https://shelterhome.pbm.gov.pk/shpolicy.pdf",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "alkhidmat_disaster_ration_packages",
+    "title": "Alkhidmat Disaster Ration Packages",
+    "category": "Disaster Relief",
+    "type": "Emergency Ration Distribution",
+    "description": "Alkhidmat provides ration packages containing essential food items to communities affected by floods, earthquakes and other disasters.",
+    "address": "Alkhidmat Foundation Head Office, 3km Khayaban-e-Jinnah, Lahore, Punjab, Pakistan",
+    "phone_number": "+92 42 3802 0222",
+    "support": [
+      "Wheat or flour",
+      "Rice",
+      "Cooking oil",
+      "Pulses",
+      "Essential food items",
+      "Emergency food relief"
+    ],
+    "eligibility": [
+      "Disaster-affected families",
+      "Flood victims",
+      "Earthquake-affected communities",
+      "Displaced families",
+      "Poor and vulnerable households",
+      "Other emergency-affected populations"
+    ],
+    "documents": [
+      "CNIC",
+      "Proof of residence",
+      "Disaster-affected status where applicable",
+      "Family information"
+    ],
+    "application": "Contact the nearest Alkhidmat office or local disaster-relief distribution center. Beneficiaries are identified through local teams and emergency response operations.",
+    "locations": [
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "Azad Jammu and Kashmir",
+      "Gilgit-Baltistan",
+      "Disaster-affected areas across Pakistan"
+    ],
+    "keywords": [
+      "Alkhidmat",
+      "disaster relief",
+      "ration package",
+      "flood relief",
+      "earthquake relief",
+      "emergency food",
+      "food aid"
+    ],
+    "latitude": 31.4697,
+    "longitude": 74.4017,
+    "source_name": "Alkhidmat Foundation Pakistan",
+    "source_url": "https://alkhidmat.org/donations/area-of-work/disaster-management/ration-packages",
+    "verified_at": "2026-08-27"
+  }
+]

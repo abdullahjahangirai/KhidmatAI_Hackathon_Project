@@ -1,0 +1,332 @@
+[
+  {
+    "id": "hec_need_based_scholarship",
+    "title": "HEC Need-Based Scholarship",
+    "category": "Education",
+    "type": "Need-Based Scholarship",
+    "description": "Financial assistance for financially disadvantaged students enrolled in eligible undergraduate and graduate programs at participating public-sector universities and degree-awarding institutions in Pakistan.",
+    "address": "Higher Education Commission, Sector H-9, Islamabad, Pakistan",
+    "phone_number": "051-111-119-432",
+    "support": [
+      "University tuition fee assistance",
+      "Monthly stipend",
+      "Financial support for the duration of the eligible degree program"
+    ],
+    "eligibility": [
+      "Pakistani student",
+      "Must be enrolled or seeking admission at a participating public-sector university or institution",
+      "Demonstrated financial need",
+      "Financial need assessed by the university's Institutional Scholarship Award Committee",
+      "Self-finance admissions are generally not eligible"
+    ],
+    "documents": [
+      "CNIC or B-Form",
+      "University admission/enrollment proof",
+      "Family income certificate",
+      "Educational certificates",
+      "Fee structure or fee slip",
+      "Other financial documents requested by the university"
+    ],
+    "application": "Obtain the scholarship application form from the Financial Aid Office of the participating university, complete it with supporting documents, and submit it to the university Financial Aid Office. HEC does not directly accept the application.",
+    "locations": [
+      "Islamabad",
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "Gilgit-Baltistan",
+      "Azad Jammu and Kashmir"
+    ],
+    "keywords": [
+      "HEC",
+      "need based scholarship",
+      "undergraduate scholarship",
+      "graduate scholarship",
+      "financial aid",
+      "tuition fee",
+      "student assistance"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Higher Education Commission Pakistan",
+    "source_url": "https://www.hec.gov.pk/english/scholarshipsgrants/NBS/Pages/default.aspx",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "benazir_undergraduate_scholarship",
+    "title": "Benazir Undergraduate Scholarship / Ehsaas Undergraduate Scholarship",
+    "category": "Education",
+    "type": "Undergraduate Scholarship",
+    "description": "A need-based undergraduate scholarship initiative designed to support deserving students from financially disadvantaged households pursuing undergraduate education at eligible public-sector universities.",
+    "address": "Higher Education Commission, Sector H-9, Islamabad, Pakistan",
+    "phone_number": "051-111-119-432",
+    "support": [
+      "University tuition fee",
+      "Stipend",
+      "Financial support throughout the eligible degree duration",
+      "Additional support for targeted female and physically challenged students"
+    ],
+    "eligibility": [
+      "Pakistani student",
+      "Newly admitted undergraduate student at an eligible HEC-recognized public-sector university",
+      "Must demonstrate financial need",
+      "Admission must be based on merit according to the university's admission criteria",
+      "Distance learning and affiliated colleges are generally excluded",
+      "Self-finance, self-support and evening programs with higher fee structures are generally excluded",
+      "Students already receiving another scholarship or continuous grant may be ineligible"
+    ],
+    "documents": [
+      "CNIC or B-Form",
+      "Parent or guardian CNIC",
+      "Family income certificate",
+      "Income and expenditure information",
+      "Educational certificates",
+      "University admission proof",
+      "Fee details",
+      "Other supporting documents required by the university"
+    ],
+    "application": "Apply through the designated HEC online scholarship system when applications are open, then submit the printed application and supporting documents to the Financial Aid Office of the respective university.",
+    "locations": [
+      "Islamabad",
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "Gilgit-Baltistan",
+      "Azad Jammu and Kashmir"
+    ],
+    "keywords": [
+      "Ehsaas scholarship",
+      "Benazir undergraduate scholarship",
+      "undergraduate",
+      "BISP scholarship",
+      "HEC scholarship",
+      "female students",
+      "financial aid"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Higher Education Commission Pakistan",
+    "source_url": "https://www.hec.gov.pk/english/scholarshipsgrants/Ehsaas/Pages/Eligibility-Criteria.aspx",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "pbm_education_assistance",
+    "title": "Pakistan Bait-ul-Mal Individual Financial Assistance - Education",
+    "category": "Financial Aid",
+    "type": "Education Assistance / Student Stipend",
+    "description": "Education assistance for poor, deserving and talented students studying in eligible public-sector schools, colleges, universities and technical institutions.",
+    "address": "Pakistan Bait-ul-Mal Head Office, Islamabad, Pakistan",
+    "phone_number": "0800-66666",
+    "support": [
+      "Educational financial assistance",
+      "University fee assistance",
+      "Boarding charges where applicable",
+      "Education stipend"
+    ],
+    "eligibility": [
+      "Poor and deserving student",
+      "Student enrolled in an eligible public-sector educational or technical institution",
+      "Regular or merit-based student",
+      "Financial need must be demonstrated",
+      "Self-financed or private-institution students are generally ineligible",
+      "Children of government employees are generally ineligible under the stated criteria"
+    ],
+    "documents": [
+      "CNIC or B-Form",
+      "Bonafide certificate from educational institution",
+      "Educational testimonials",
+      "Affidavit from parents",
+      "Fee slip or fee structure",
+      "Residential address information"
+    ],
+    "application": "Download the education assistance form from the Pakistan Bait-ul-Mal website, have it completed by the relevant university or college administration, attach the required documents and submit it to a PBM district, regional/provincial or head office.",
+    "locations": [
+      "Islamabad",
+      "Karachi",
+      "Lahore",
+      "Peshawar",
+      "Quetta",
+      "Pakistan-wide"
+    ],
+    "keywords": [
+      "Pakistan Bait-ul-Mal",
+      "PBM",
+      "education assistance",
+      "student financial aid",
+      "education stipend",
+      "university fee",
+      "poor students"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Pakistan Bait-ul-Mal",
+    "source_url": "https://www.pbm.gov.pk/Project-Scholarships.html",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "peef_scholarships",
+    "title": "Punjab Educational Endowment Fund (PEEF) Scholarships",
+    "category": "Education",
+    "type": "Merit-Cum-Need Scholarship",
+    "description": "Scholarship programs supporting talented and financially disadvantaged students, including outreach, master's, special quota and other scholarship categories.",
+    "address": "33-Civic Center, Near Liaquat Chowk, Sabzazar, Lahore, Punjab, Pakistan",
+    "phone_number": "+92-42-111-11-7333",
+    "support": [
+      "Educational scholarship",
+      "Financial assistance for studies",
+      "Scholarships for intermediate and higher education",
+      "Special quota scholarships",
+      "Master's-level scholarships",
+      "Outreach scholarships"
+    ],
+    "eligibility": [
+      "Eligibility depends on the specific PEEF scholarship category",
+      "Academic merit requirements apply",
+      "Financial need requirements apply to relevant scholarship categories",
+      "Students from Punjab and eligible special categories may apply",
+      "Additional programs are available for AJK and other regions under specific schemes"
+    ],
+    "documents": [
+      "CNIC or B-Form",
+      "Educational certificates",
+      "Admission/enrollment proof",
+      "Income certificate",
+      "Fee information",
+      "Other documents required by the specific PEEF scholarship"
+    ],
+    "application": "Apply through the relevant PEEF scholarship process, educational institution or official student portal depending on the scholarship category.",
+    "locations": [
+      "Punjab",
+      "Islamabad",
+      "Azad Jammu and Kashmir",
+      "Gilgit-Baltistan",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "Sindh"
+    ],
+    "keywords": [
+      "PEEF",
+      "Punjab scholarship",
+      "merit scholarship",
+      "need based scholarship",
+      "student scholarship",
+      "master scholarship",
+      "special quota"
+    ],
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "source_name": "Punjab Educational Endowment Fund",
+    "source_url": "https://www.peef.org.pk/",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "ogdcl_hec_need_based_scholarship",
+    "title": "OGDCL-HEC Need-Based Scholarship Program",
+    "category": "Education",
+    "type": "Need-Based Scholarship",
+    "description": "Scholarship program offered through HEC in partnership with Oil and Gas Development Company Limited for financially disadvantaged students, particularly from OGDCL operational and concessional districts.",
+    "address": "Oil and Gas Development Company Limited, Islamabad, Pakistan",
+    "phone_number": "051-920023451",
+    "support": [
+      "Undergraduate education support",
+      "Graduate education support",
+      "Tuition fee assistance",
+      "Financial support for eligible students"
+    ],
+    "eligibility": [
+      "Must be a Pakistani citizen",
+      "Must belong to an OGDCL operational or concessional district",
+      "Must meet admission requirements of a participating university",
+      "Financial need is assessed based on family financial circumstances",
+      "Only prescribed disciplines and participating institutions are eligible",
+      "Eligibility may depend on being enrolled in the first semester or professional year"
+    ],
+    "documents": [
+      "CNIC or B-Form",
+      "Domicile",
+      "Income certificate",
+      "Educational certificates",
+      "University admission/enrollment documents",
+      "Proof of residence",
+      "Other documents required by HEC or participating university"
+    ],
+    "application": "Apply through the HEC scholarship process and the Financial Aid Office of the participating university when the OGDCL-HEC scholarship intake is announced.",
+    "locations": [
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "OGDCL operational districts"
+    ],
+    "keywords": [
+      "OGDCL scholarship",
+      "HEC",
+      "need based",
+      "engineering scholarship",
+      "IT scholarship",
+      "business scholarship",
+      "underprivileged students"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Higher Education Commission Pakistan / OGDCL",
+    "source_url": "https://www.hec.gov.pk/Urdu/scholarshipsgrants/OGDCL-NBSP/Pages/default.aspx",
+    "verified_at": "2026-08-27"
+  },
+  {
+    "id": "usaid_merit_needs_based_scholarship",
+    "title": "USAID-Funded Merit and Needs-Based Scholarship Program",
+    "category": "Education",
+    "type": "Merit and Need-Based Scholarship",
+    "description": "Higher education scholarship program supporting eligible Pakistani students through participating universities based on merit and financial need.",
+    "address": "Higher Education Commission, Sector H-9, Islamabad, Pakistan",
+    "phone_number": "051-111-119-432",
+    "support": [
+      "Higher education financial assistance",
+      "Tuition fee support",
+      "Need-based assistance",
+      "Merit-based scholarship support"
+    ],
+    "eligibility": [
+      "Pakistani student",
+      "Must meet the eligibility criteria of the participating university",
+      "Selection is based on merit and financial need",
+      "Must study at an eligible participating institution",
+      "Self-finance and certain self-support programs may be excluded",
+      "Students receiving another scholarship or continuous grant may be ineligible"
+    ],
+    "documents": [
+      "CNIC or B-Form",
+      "University admission documents",
+      "Academic certificates",
+      "Income certificate",
+      "Financial need documents",
+      "Fee details",
+      "Other documents requested by the university"
+    ],
+    "application": "Complete the HEC online application when the scholarship intake is open and submit the printed application with supporting documents to the Student Financial Aid Office of the participating university.",
+    "locations": [
+      "Islamabad",
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "Pakistan-wide participating universities"
+    ],
+    "keywords": [
+      "USAID scholarship",
+      "merit based",
+      "need based",
+      "HEC",
+      "higher education",
+      "financial aid",
+      "university scholarship"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Higher Education Commission Pakistan",
+    "source_url": "https://www.hec.gov.pk/english/scholarshipsgrants/USAID-NeedsBased/Pages/HowToApply.aspx",
+    "verified_at": "2026-08-27"
+  }
+]

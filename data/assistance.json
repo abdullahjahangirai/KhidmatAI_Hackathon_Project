@@ -1,0 +1,640 @@
+[
+  {
+    "id": "bisp_kafalat",
+    "title": "Benazir Income Support Programme (BISP) - Benazir Kafaalat",
+    "category": "Financial Aid",
+    "type": "Cash Grant / Quarterly Stipend",
+    "description": "Pakistan's largest social safety net program. Unconditional quarterly cash transfer to over 9.3 million poorest households nationwide. Special focus on women as primary beneficiaries. Managed by Government of Pakistan.",
+    "address": "BISP Headquarters, Islamabad, Pakistan (Multiple offices across all provinces)",
+    "phone_number": "SMS 8171 (Free on all networks) or +92-300-4000-BISP",
+    "support": [
+      "Quarterly Cash Transfer (Rs. 14,500 per quarter as of March 2026)",
+      "Benazir Kafaalat (Unconditional cash)",
+      "Benazir Taleemi Wazaif (Education stipends)",
+      "Benazir Nashonuma Programme (Nutrition support for mothers/infants)",
+      "Himmat Programme (Employment support)",
+      "Female head-of-household prioritization",
+      "Digital payment through banks/ATMs",
+      "No loan required - free financial help",
+      "Registration in all provinces and territories"
+    ],
+    "eligibility": [
+      "Households with monthly income below Rs. 25,000 (approximate)",
+      "Determined by Proxy Means Test (PMT) scoring",
+      "Registered in National Socio-Economic Registry (NSER)",
+      "Pakistani citizens with valid CNIC",
+      "Preference given to women-headed households",
+      "Preference given to families with children",
+      "All provinces covered (Punjab, Sindh, KP, Balochistan, GB, AJK)"
+    ],
+    "documents": [
+      "CNIC (Computerized National Identity Card)",
+      "Proof of residence (optional)"
+    ],
+    "application": "Send CNIC to 8171 via SMS (free) to check eligibility. Also check at bisp.gov.pk or 8171.bisp.gov.pk portal. Registration ongoing - no fixed deadline. Visit nearest BISP center for detailed assistance.",
+    "locations": [
+      "All Pakistan",
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan",
+      "Azad Jammu & Kashmir",
+      "Gilgit-Baltistan"
+    ],
+    "keywords": [
+      "cash grant",
+      "quarterly stipend",
+      "poverty alleviation",
+      "women empowerment",
+      "social safety net",
+      "government assistance",
+      "unconditional cash transfer"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Benazir Income Support Programme (BISP) - Government of Pakistan",
+    "source_url": "https://www.bisp.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "pbm_general_financial",
+    "title": "Pakistan Bait-ul-Mal (PBM) - Individual Financial Assistance (IFA)",
+    "category": "Financial Aid",
+    "type": "Cash Grant / Relief Assistance",
+    "description": "Federal government welfare organization providing financial assistance to poor, widows, disabled, and orphans. Offers one-time grants for general assistance, medical treatment, education, and rehabilitation. Maximum Rs. 30,000 per individual.",
+    "address": "Pakistan Bait-ul-Mal Headquarters, Islamabad (District offices in all districts)",
+    "phone_number": "Available at local District Bait-ul-Mal Committee offices",
+    "support": [
+      "General Financial Assistance (Rs. 30,000 maximum)",
+      "Medical Treatment Assistance",
+      "Education Assistance/Scholarships",
+      "Rehabilitation Support",
+      "Priority for widows, disabled, and destitute",
+      "One-time grants (can apply once yearly)",
+      "Special preference for disabled persons",
+      "Support for families with multiple disabled members"
+    ],
+    "eligibility": [
+      "Living below poverty level",
+      "Pakistani citizens",
+      "No regular assistance from other government programs",
+      "Verified by District Bait-ul-Mal Committees",
+      "Priority categories: widows, disabled, destitute, orphans",
+      "Preference to those with no source of income",
+      "Must apply through District Committee of residence area"
+    ],
+    "documents": [
+      "CNIC (Computerized National Identity Card)",
+      "Birth Certificate (for orphans)",
+      "Death Certificate (for widows)",
+      "Medical Report (for disability)",
+      "Proof of residence",
+      "Income certificate or affidavit"
+    ],
+    "application": "Apply to Chairman of District Bait-ul-Mal Committee in your area of permanent residence. Submit prescribed application form with supporting documents. Each application reviewed individually on first-come-first-basis.",
+    "locations": [
+      "All Pakistan",
+      "All 157 Districts"
+    ],
+    "keywords": [
+      "welfare assistance",
+      "financial grant",
+      "disability support",
+      "widow assistance",
+      "medical aid",
+      "education assistance",
+      "relief fund"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Pakistan Bait-ul-Mal - Government of Pakistan",
+    "source_url": "https://www.pbm.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "pbm_education_assistance",
+    "title": "Pakistan Bait-ul-Mal - Educational Assistance for Deserving Students",
+    "category": "Education / Financial Aid",
+    "type": "Scholarship / Education Grant",
+    "description": "Educational assistance program providing scholarships and stipends to deserving students studying in government educational institutions (schools, colleges, universities). Supports bright but financially needy students to continue their education.",
+    "address": "Pakistan Bait-ul-Mal Headquarters, Islamabad (Provincial and district offices)",
+    "phone_number": "Available at educational institutions or District PBM offices",
+    "support": [
+      "Full semester/year fee assistance",
+      "Education stipends",
+      "Registration and examination fee support",
+      "Books and stationery assistance",
+      "Support for BS (Hons) and Master programs",
+      "Continuation support on successful completion",
+      "Direct fee payment to educational institution"
+    ],
+    "eligibility": [
+      "Enrolled in government educational institution",
+      "Studying on regular/merit basis",
+      "Genuine financial need",
+      "High academic achievement required",
+      "Must clear all subjects (failure makes ineligible for next year)",
+      "Parents not government employees",
+      "Low-income family status",
+      "Bonafide certificate required from institution"
+    ],
+    "documents": [
+      "CNIC (student if 18+, or parent CNIC if below 18)",
+      "Bonafide Certificate from educational institute",
+      "Fee Challan/Fee Voucher for current semester",
+      "Academic transcript/marks sheet",
+      "Affidavit about financial status",
+      "Application to MD Pakistan Baitulmal"
+    ],
+    "application": "Download application form from educational institution. Submit to head of institution with bonafide certificate and fee documents. Cases processed through university/college committee, forwarded to PBM for final approval. No direct online application - must go through institution.",
+    "locations": [
+      "All Pakistan",
+      "Government Schools",
+      "Government Colleges",
+      "Government Universities"
+    ],
+    "keywords": [
+      "education scholarship",
+      "student assistance",
+      "education grant",
+      "school fees",
+      "college assistance",
+      "deserving students",
+      "education support"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Pakistan Bait-ul-Mal - Government of Pakistan",
+    "source_url": "https://www.pbm.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "ehsaas_emergency_cash",
+    "title": "Ehsaas Emergency Cash Programme",
+    "category": "Financial Aid",
+    "type": "Emergency Cash Grant",
+    "description": "Government of Pakistan emergency financial assistance for low-income families facing immediate financial hardship, inflation, unemployment, or economic crisis. One-time emergency payment of Rs. 14,000-25,000. Integrated with BISP system.",
+    "address": "Ehsaas Program Office, Islamabad (coordinated through BISP)",
+    "phone_number": "SMS 8171, Call BISP helpline, or visit 8171.pass.gov.pk",
+    "support": [
+      "One-time Emergency Cash (Rs. 14,000 to Rs. 25,000)",
+      "Support for unemployment-affected families",
+      "Relief for inflation-impacted households",
+      "Disaster-affected family support",
+      "Quick digital disbursement",
+      "No loan - free financial help",
+      "Multiple payment collection points",
+      "Bank transfer and ATM withdrawal options"
+    ],
+    "eligibility": [
+      "Pakistani citizens with valid CNIC",
+      "Low-income households (under Rs. 25,000 monthly)",
+      "Registered in NSER/Dynamic Survey",
+      "PMT score below government threshold",
+      "Families affected by inflation or financial crisis",
+      "Unemployed or daily wage workers",
+      "No government job in immediate family",
+      "Not receiving large financial aid from other schemes"
+    ],
+    "documents": [
+      "CNIC (Computerized National Identity Card)",
+      "Proof of income loss/financial hardship"
+    ],
+    "application": "Send CNIC to 8171 SMS (free) for eligibility check. Check status at 8171.pass.gov.pk web portal. Enter CNIC and captcha code. Register at Ehsaas centers if needed. Assistance transfers directly to bank account or ATM.",
+    "locations": [
+      "All Pakistan",
+      "All provinces and territories"
+    ],
+    "keywords": [
+      "emergency cash",
+      "financial relief",
+      "poverty assistance",
+      "unemployment support",
+      "inflation relief",
+      "emergency aid",
+      "crisis support"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Ehsaas Programme - Government of Pakistan",
+    "source_url": "https://www.pass.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "ehsaas_disabled_person",
+    "title": "Ehsaas Disabled Person Program",
+    "category": "Disability / Financial Aid",
+    "type": "Monthly Stipend / Disability Allowance",
+    "description": "Government program providing monthly financial support to persons with disabilities. Rs. 2,000 monthly stipend to help cover basic expenses. Includes skill development and scholarship opportunities. Supported by BISP and Bait-ul-Mal funds.",
+    "address": "Social Welfare Departments (federal and provincial), Ehsaas Program Offices",
+    "phone_number": "Provincial Social Welfare Department hotlines, Ehsaas helpline",
+    "support": [
+      "Monthly Stipend (Rs. 2,000 per month)",
+      "Bank Savings Account Opening Support",
+      "Skill Development Initiatives",
+      "Education Scholarships",
+      "Medical/Healthcare Support",
+      "Assistive Devices Assistance",
+      "Employment Quota Support",
+      "Travel Discount Eligibility"
+    ],
+    "eligibility": [
+      "Persons with verified permanent disability",
+      "Disability registered with NADRA",
+      "Low-income household status",
+      "Valid Disability Certificate required",
+      "Pakistani citizens with CNIC",
+      "Disability must be reflected in CNIC",
+      "Registration in Ehsaas/BISP database",
+      "20+ million families with disabled persons eligible"
+    ],
+    "documents": [
+      "CNIC with disability status marked",
+      "Disability Certificate from Social Welfare Department",
+      "Medical assessment and disability board report",
+      "Proof of income/assets",
+      "Bank account details"
+    ],
+    "application": "Register with Ehsaas or BISP program. Ensure disability status in CNIC. Apply at government Social Welfare Department office. Contact Ehsaas centers for assistance. NADRA verification required. Government funds transferred directly to bank account.",
+    "locations": [
+      "All Pakistan",
+      "All provinces"
+    ],
+    "keywords": [
+      "disability allowance",
+      "disabled person support",
+      "monthly stipend",
+      "special person assistance",
+      "welfare for disabled",
+      "disability benefits",
+      "PWD support"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Ministry of Poverty Alleviation & Social Safety, Government of Pakistan",
+    "source_url": "https://www.pass.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "cm_himmat_card_punjab",
+    "title": "CM Punjab Himmat Card 2026 (Disability Support)",
+    "category": "Disability / Financial Aid",
+    "type": "Disability Assistance Card / Monthly Stipend",
+    "description": "Punjab province program for persons with disabilities. Provides monthly stipends, free medical facilities, education support, and job opportunities. Special welfare card program for social inclusion and independent living.",
+    "address": "Social Welfare Department Punjab offices across all districts",
+    "phone_number": "Provincial Social Welfare Department hotline, District offices",
+    "support": [
+      "Monthly Financial Stipend",
+      "Free Medical/Healthcare Services",
+      "Free Medicines",
+      "Education Support and Scholarships",
+      "Government Job Quotas",
+      "Skill Development Opportunities",
+      "Employment Training",
+      "Assistive Devices Support"
+    ],
+    "eligibility": [
+      "Persons with disabilities in Punjab",
+      "Low-income household",
+      "Disability Certificate required",
+      "Registered with NADRA",
+      "Valid CNIC",
+      "Permanent Punjab residency"
+    ],
+    "documents": [
+      "CNIC (with disability status)",
+      "Disability Certificate",
+      "Medical assessment report",
+      "Bank account details",
+      "Proof of Punjab residency"
+    ],
+    "application": "Visit Social Welfare Department office in your district. Apply through online portal or physical application. Eligibility verified through CNIC and disability records. Card status checked via online portal with CNIC.",
+    "locations": [
+      "Punjab (all districts)",
+      "Karachi",
+      "Lahore",
+      "Rawalpindi",
+      "Faisalabad",
+      "Multan"
+    ],
+    "keywords": [
+      "disability card",
+      "Punjab welfare",
+      "disabled person assistance",
+      "monthly stipend",
+      "healthcare support",
+      "job quota",
+      "social inclusion"
+    ],
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "source_name": "Social Welfare Department, Government of Punjab",
+    "source_url": "https://sw.punjab.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "cm_rahmat_card_punjab",
+    "title": "CM Punjab Rahmat Card (Widow & Orphan Support) 2026",
+    "category": "Financial Aid",
+    "type": "One-Time Cash Grant / Widow-Orphan Assistance",
+    "description": "Punjab's comprehensive welfare program for widows and orphaned children. Rs. 5 billion allocated from Zakat Fund. Provides Rs. 100,000 one-time grant to eligible widows and orphans. Digital and transparent distribution system.",
+    "address": "Zakat & Ushr Department Punjab, District Zakat Committees, Mobile App/Web Portal",
+    "phone_number": "Helpline 1077 (Punjab Zakat & Ushr Dept), mobile app support",
+    "support": [
+      "Rs. 100,000 to widows (one-time)",
+      "Rs. 100,000 to double-parent orphans (one-time)",
+      "Zakat-based assistance (Shariah-compliant)",
+      "Digital bank transfer",
+      "Transparent verification system",
+      "Appeal option if rejected",
+      "Direct deposit - no middlemen"
+    ],
+    "eligibility": [
+      "Needy and poor Muslim widows",
+      "Double-parent orphans (parentless children)",
+      "Eligible for Zakat under Islamic Shariah",
+      "Punjab residents with domicile",
+      "Income below poverty line",
+      "Not receiving regular financial assistance from other government schemes",
+      "Valid CNIC showing widow/orphan status"
+    ],
+    "documents": [
+      "CNIC (updated with widow/orphan status)",
+      "Death Certificate of husband (for widows)",
+      "Birth Certificate (for orphans)",
+      "Union Council verification letter",
+      "Bank account details"
+    ],
+    "application": "Download and apply through dedicated Mobile App or Web Portal. Call helpline 1077 for guidance. Visit Zakat & Ushr Department office with documents. Biometric verification and field checks conducted. Funds directly transferred to bank account.",
+    "locations": [
+      "Punjab (all districts)",
+      "50,000 beneficiaries targeted"
+    ],
+    "keywords": [
+      "widow assistance",
+      "orphan support",
+      "Rahmat Card",
+      "Zakat assistance",
+      "one-time grant",
+      "Punjab welfare",
+      "widow grant"
+    ],
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "source_name": "Zakat & Ushr Department, Government of Punjab",
+    "source_url": "https://zakat.punjab.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "zakat_punjab_general",
+    "title": "Punjab Bait-ul-Maal - Financial Assistance for Needy/Disabled",
+    "category": "Financial Aid",
+    "type": "Relief Assistance / One-Time Grant",
+    "description": "Separate Punjab provincial Bait-ul-Maal program. Provides one-time grants up to Rs. 30,000 for relief and rehabilitation of poor, disabled, and needy persons. Managed by District Bait-ul-Maal Committees.",
+    "address": "District Bait-ul-Maal Committees (Punjab), headquartered in Lahore",
+    "phone_number": "District Bait-ul-Maal Committee offices across Punjab",
+    "support": [
+      "One-time Financial Assistance (up to Rs. 30,000)",
+      "Marriage Grant Support",
+      "Medical Treatment Assistance",
+      "Priority for disabled persons",
+      "Priority for shelterless/emergency cases",
+      "Relief for destitute individuals",
+      "Support complementary to other schemes"
+    ],
+    "eligibility": [
+      "Living below poverty level",
+      "Determined by District Bait-ul-Maal Committee",
+      "Priority to disabled and needy persons",
+      "Shelterless individuals",
+      "Not receiving Zakat or other major assistance",
+      "Punjab residents",
+      "Pakistani citizens"
+    ],
+    "documents": [
+      "CNIC",
+      "Income certificate or affidavit",
+      "Medical report (if disability-related)",
+      "Proof of residence",
+      "Detailed application form"
+    ],
+    "application": "Apply at Chairman, District Bait-ul-Maal Committee in your area. Download application form from bm.punjab.gov.pk. Submit with supporting documents. Committee reviews financial circumstances and approves/rejects. Direct payment after approval.",
+    "locations": [
+      "Punjab (all districts)"
+    ],
+    "keywords": [
+      "financial assistance",
+      "disability support",
+      "relief grant",
+      "emergency assistance",
+      "needy persons",
+      "medical aid",
+      "welfare"
+    ],
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "source_name": "Punjab Bait-ul-Maal, Government of Punjab",
+    "source_url": "https://baitulmaal.punjab.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "zakat_automatic_deduction",
+    "title": "Zakat Deduction from Bank Accounts (Automatic System)",
+    "category": "Financial Aid",
+    "type": "Zakat Collection / Islamic Welfare",
+    "description": "Automatic Zakat deduction system from bank accounts by State Bank of Pakistan. Zakat collected from eligible accounts on deduction date (typically February). Funds distributed to eligible individuals under Islamic principles.",
+    "address": "State Bank of Pakistan, all scheduled banks across Pakistan",
+    "phone_number": "SBP Helpline, Individual bank customer service",
+    "support": [
+      "Automatic Zakat deduction (2.5% of eligible wealth)",
+      "Islamic-compliant distribution",
+      "Support to poor and needy categories",
+      "Debt relief support",
+      "Support for striving in cause of Allah",
+      "Travel assistance for stranded persons",
+      "Conversion/new Muslim support"
+    ],
+    "eligibility": [
+      "Bank account holders with minimum balance Rs. 503,529 (2026 threshold)",
+      "Account maintained for one Islamic year",
+      "Savings, Profit/Loss Sharing, and similar accounts",
+      "Automatic deduction on specified date",
+      "No application needed - automatic"
+    ],
+    "documents": [
+      "Valid bank account",
+      "Zakat declaration (if opting for alternative calculation)",
+      "CNIC for account holder"
+    ],
+    "application": "No application required. Automatic deduction by bank on deduction date (typically February 19-20). Can opt out or modify calculation. Check with bank for specific terms and conditions.",
+    "locations": [
+      "All Pakistan",
+      "All bank branches"
+    ],
+    "keywords": [
+      "Zakat deduction",
+      "Islamic charity",
+      "wealth tax",
+      "automatic collection",
+      "Islamic obligation",
+      "poverty alleviation",
+      "wealth distribution"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "State Bank of Pakistan",
+    "source_url": "https://www.sbp.org.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "kp_ehsaas_umeed_card",
+    "title": "KP Ehsaas Umeed Card (Disability & Widow/Orphan Support)",
+    "category": "Disability / Financial Aid",
+    "type": "Monthly Stipend Card / Welfare Assistance",
+    "description": "Khyber Pakhtunkhwa provincial program providing monthly stipends to persons with disabilities, widows, and orphans. Rs. 5,000 monthly through card-based system. Direct bank transfer, no paperwork.",
+    "address": "Social Welfare Department KP, District Social Welfare Offices",
+    "phone_number": "Provincial Social Welfare Department, District offices",
+    "support": [
+      "Rs. 5,000 monthly for disabled persons (10,000 beneficiaries)",
+      "Rs. 5,000 monthly for widows and orphans",
+      "Direct bank transfer monthly",
+      "Interest-free business loan (Rs. 500 million program)",
+      "Ehsaas Scholarship for disabled students (Rs. 700 million)",
+      "Skill development programs",
+      "Accessible infrastructure support",
+      "Doorstep registration services"
+    ],
+    "eligibility": [
+      "Persons with disabilities in KP",
+      "Widows and orphans",
+      "Low-income status",
+      "Disability Certificate required",
+      "KP residents",
+      "Valid CNIC",
+      "Verified by Social Welfare Department"
+    ],
+    "documents": [
+      "CNIC",
+      "Disability Certificate (if applicable)",
+      "Bank account details",
+      "Proof of residence",
+      "Income affidavit"
+    ],
+    "application": "Register through doorstep services or visit Social Welfare Department office. Registration conducted at applicant's home location. Direct bank account transfer initiated after verification. Monthly deposits automatic.",
+    "locations": [
+      "Khyber Pakhtunkhwa",
+      "All KP districts"
+    ],
+    "keywords": [
+      "disability allowance",
+      "widow support",
+      "orphan assistance",
+      "monthly stipend",
+      "KP welfare",
+      "Umeed Card",
+      "social protection"
+    ],
+    "latitude": 34.0151,
+    "longitude": 71.5589,
+    "source_name": "Social Welfare Department, Government of Khyber Pakhtunkhwa",
+    "source_url": "https://sw.kp.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "bisp_taleemi_wazaif",
+    "title": "Benazir Taleemi Wazaif (Education Stipends)",
+    "category": "Education / Financial Aid",
+    "type": "Education Stipend / Child Support",
+    "description": "BISP sub-program providing conditional cash transfers to encourage school attendance. Additional stipends for BISP beneficiary families with school-age children. Increased by Rs. 500 in February 2026.",
+    "address": "BISP Headquarters and provincial offices (coordinated through BISP)",
+    "phone_number": "BISP helpline via SMS 8171",
+    "support": [
+      "Education stipends for primary school children",
+      "Education stipends for secondary school children",
+      "Increased amounts (Rs. 500 increase in 2026)",
+      "Conditional on school attendance",
+      "Encourages educational continuity",
+      "Supports BISP beneficiary families",
+      "Direct payment to beneficiaries"
+    ],
+    "eligibility": [
+      "BISP beneficiary families",
+      "Children enrolled in government schools",
+      "Regular school attendance required",
+      "Primary and secondary level students",
+      "Continuation dependent on school performance"
+    ],
+    "documents": [
+      "CNIC (beneficiary)",
+      "School enrollment certificate",
+      "Proof of attendance"
+    ],
+    "application": "Automatic if already BISP beneficiary with school-age children. Enrollment in government school required. School provides attendance certificates. Payments made quarterly through BISP.",
+    "locations": [
+      "All Pakistan"
+    ],
+    "keywords": [
+      "education stipend",
+      "school allowance",
+      "children support",
+      "education support",
+      "conditional cash transfer",
+      "BISP sub-program",
+      "youth education"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Benazir Income Support Programme (BISP) - Government of Pakistan",
+    "source_url": "https://www.bisp.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "bisp_nashonuma_programme",
+    "title": "Benazir Nashonuma Programme (Nutrition Support)",
+    "category": "Healthcare / Financial Aid",
+    "type": "Nutrition Support / Health Stipend",
+    "description": "BISP health and nutrition initiative supporting pregnant women, lactating mothers, and infants under 2 years. Prevents stunting and malnutrition. Increased stipends by Rs. 500 in February 2026.",
+    "address": "BISP Headquarters, provincial health departments",
+    "phone_number": "BISP helpline SMS 8171, health department offices",
+    "support": [
+      "Nutrition support for pregnant women",
+      "Nutrition support for lactating mothers",
+      "Support for infants under 2 years",
+      "Stunting prevention program",
+      "Malnutrition prevention",
+      "Health/nutrition counseling",
+      "Stipend increase 2026",
+      "Direct payment to mothers"
+    ],
+    "eligibility": [
+      "BISP beneficiary families",
+      "Pregnant women",
+      "Lactating mothers",
+      "Infants and children under 2 years",
+      "Registered in NSER/BISP database"
+    ],
+    "documents": [
+      "CNIC (mother)",
+      "Pregnancy/birth certificate",
+      "BISP eligibility verification"
+    ],
+    "application": "Automatic enrollment if BISP beneficiary with pregnancy/infant. Medical confirmation through health centers. Quarterly stipend payments made through BISP system.",
+    "locations": [
+      "All Pakistan"
+    ],
+    "keywords": [
+      "nutrition support",
+      "maternal health",
+      "infant nutrition",
+      "health stipend",
+      "stunting prevention",
+      "malnutrition support",
+      "health program"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Benazir Income Support Programme (BISP) - Government of Pakistan",
+    "source_url": "https://www.bisp.gov.pk/",
+    "verified_at": "2026-08-28"
+  }
+]

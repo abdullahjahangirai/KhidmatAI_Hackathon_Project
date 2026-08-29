@@ -1,0 +1,35 @@
+{
+  "contact_info": {
+    "phone": "+92-21-111-999-000",
+    "email": "support@khidmatai.pk",
+    "helpline": "0800-55555",
+    "address": "KhidmatAI Centre, Karachi, Pakistan"
+  },
+  "ticker_text": [
+    "PM Youth Skill Development Program: Registrations now open!",
+    "Emergency Helpline 1122 active 24/7 across all provinces.",
+    "BISP Kafalat: New quarterly disbursement starts soon. Check 8171 for your status.",
+    "HEC Need-Based Scholarships: Apply before the semester deadline."
+  ],
+  "hero_slides": [
+    {
+      "id": "slide1",
+      "type": "color",
+      "url": "",
+      "bg_color": "#0A5C36",
+      "caption": "Pakistan's Premier Social Welfare Navigator",
+      "caption_urdu": "پاکستان کے ہر شہری کے لیے",
+      "order": 0
+    },
+    {
+      "id": "slide2",
+      "type": "color",
+      "url": "",
+      "bg_color": "#064e3b",
+      "caption": "500+ Verified Welfare Programs Nationwide",
+      "caption_urdu": "500 سے زائد فلاحی پروگرامز",
+      "order": 1
+    }
+  ],
+  "organizations": []
+}

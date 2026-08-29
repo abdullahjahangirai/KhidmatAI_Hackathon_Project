@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KhidmatAI — Welfare Navigator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+  <!-- TICKER BAR -->
+  <div class="ticker-bar" id="tickerBar">
+    <div class="ticker-track" id="tickerTrack">
+      <span>Loading updates...</span>
+    </div>
+  </div>
+
+  <div class="app">
+    <!-- SIDEBAR -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-brand">
+        <i class="fa-solid fa-hand-holding-heart brand-icon"></i>
+        <span>KhidmatAI</span>
+      </div>
+      <nav class="sidebar-nav">
+        <div class="nav-item active" data-page="dashboard" onclick="openPage('dashboard')">
+          <i class="fa-solid fa-house nav-icon"></i>
+          <span data-i18n="nav_dashboard">Dashboard</span>
+        </div>
+        <div class="nav-item" data-page="assistant" onclick="openPage('assistant')">
+          <i class="fa-solid fa-robot nav-icon"></i>
+          <span data-i18n="nav_assistant">AI Assistant</span>
+        </div>
+        <div class="nav-item" data-page="eligibility" onclick="openPage('eligibility')">
+          <i class="fa-solid fa-clipboard-check nav-icon"></i>
+          <span data-i18n="nav_eligibility">Eligibility</span>
+        </div>
+        <div class="nav-item" data-page="nearby" onclick="openPage('nearby')">
+          <i class="fa-solid fa-map-location-dot nav-icon"></i>
+          <span data-i18n="nav_nearby">Find Nearby</span>
+        </div>
+        <div class="nav-item" data-page="programs" onclick="openPage('programs')">
+          <i class="fa-solid fa-list nav-icon"></i>
+          <span data-i18n="nav_programs">Programs</span>
+        </div>
+        <div class="nav-item" data-page="saved" onclick="openPage('saved')">
+          <i class="fa-solid fa-bookmark nav-icon"></i>
+          <span data-i18n="nav_saved">Saved</span>
+        </div>
+        <div class="nav-item" data-page="emergency" onclick="openPage('emergency')">
+          <i class="fa-solid fa-truck-medical nav-icon"></i>
+          <span data-i18n="nav_emergency">Emergency</span>
+        </div>
+        <hr>
+        <div class="nav-item" data-page="about" onclick="openPage('about')">
+          <i class="fa-solid fa-circle-info nav-icon"></i>
+          <span data-i18n="nav_about">About Us</span>
+        </div>
+        <div class="nav-item" data-page="contact" onclick="openPage('contact')">
+          <i class="fa-solid fa-envelope nav-icon"></i>
+          <span data-i18n="nav_contact">Contact</span>
+        </div>
+        <div class="nav-item" data-page="settings" onclick="openPage('settings')">
+          <i class="fa-solid fa-gear nav-icon"></i>
+          <span data-i18n="nav_settings">Settings</span>
+        </div>
+        <div class="nav-item" data-page="help" onclick="openPage('help')">
+          <i class="fa-solid fa-circle-question nav-icon"></i>
+          <span data-i18n="nav_help">Help</span>
+        </div>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <!-- HEADER -->
+      <header>
+        <div class="header-left">
+          <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <h2 id="pageTitle" data-i18n="nav_dashboard">Dashboard</h2>
+        </div>
+        <div class="header-right">
+          <select id="languageSelector" class="lang-select">
+            <option value="english">English</option>
+            <option value="roman">Roman Urdu</option>
+            <option value="urdu">Urdu (اردو)</option>
+          </select>
+          <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </header>
+
+      <section class="content">
+        <!-- PAGE: dashboard -->
+        <div class="page active" id="page-dashboard">
+          <!-- HERO SECTION -->
+          <section class="hero">
+            <div class="hero-slider" id="heroSlider">
+              <div class="hero-slide active" style="background: linear-gradient(135deg, #0A5C36, #064e3b)">
+                <div class="hero-slide-content">
+                  <div class="hero-brand">AL KHIDMAT AI | <span class="hero-brand-urdu">خدمت اے آئی</span></div>
+                  <h1 class="hero-heading">Pakistan's Premier Welfare Navigator</h1>
+                  <p class="hero-subtext">Find verified welfare programs, scholarships, healthcare &amp; relief — all in one platform.</p>
+                  <div class="hero-actions">
+                    <button class="btn btn-white" onclick="openPage('programs')">Browse Programs</button>
+                    <button class="btn btn-outline-white" onclick="openPage('eligibility')">Check Eligibility</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slider controls -->
+            <button class="slider-prev" id="sliderPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="slider-next" id="sliderNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="slider-dots" id="sliderDots"></div>
+          </section>
+
+          <!-- QUICK ACTIONS BAR -->
+          <div class="quick-actions-bar">
+            <div class="quick-action-card" onclick="openPage('programs')">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>Search Programs</span>
+            </div>
+            <div class="quick-action-card" onclick="openPage('eligibility')">
+              <i class="fa-solid fa-check-double"></i>
+              <span>Check Eligibility</span>
+            </div>
+            <div class="quick-action-card" onclick="openPage('help')">
+              <i class="fa-solid fa-file-lines"></i>
+              <span>Required Docs</span>
+            </div>
+            <div class="quick-action-card" onclick="openPage('about')">
+              <i class="fa-solid fa-shoe-prints"></i>
+              <span>Step-by-Step Guide</span>
+            </div>
+            <div class="quick-action-card" onclick="openPage('nearby')">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Find Nearby</span>
+            </div>
+          </div>
+
+          <!-- STATS BAR -->
+          <div class="stats-bar">
+            <div class="stat-card">
+              <h3 class="stat-num">500+</h3>
+              <p>Programs</p>
+            </div>
+            <div class="stat-card">
+              <h3 class="stat-num">5000+</h3>
+              <p>Centers</p>
+            </div>
+            <div class="stat-card">
+              <h3 class="stat-num">All</h3>
+              <p>Citizens</p>
+            </div>
+            <div class="stat-card">
+              <h3 class="stat-num">100%</h3>
+              <p>Free</p>
+            </div>
+          </div>
+
+          <!-- DASHBOARD GRID -->
+          <div class="dashboard-grid">
+            <div class="dashboard-left">
+              <div class="categories-grid">
+                <div class="category-item"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></div>
+                <div class="category-item"><i class="fa-solid fa-notes-medical"></i><span>Health</span></div>
+                <div class="category-item"><i class="fa-solid fa-bowl-food"></i><span>Food</span></div>
+                <div class="category-item"><i class="fa-solid fa-house-chimney"></i><span>Housing</span></div>
+                <div class="category-item"><i class="fa-solid fa-hand-holding-dollar"></i><span>Finance</span></div>
+                <div class="category-item"><i class="fa-solid fa-briefcase"></i><span>Employment</span></div>
+                <div class="category-item"><i class="fa-solid fa-scale-balanced"></i><span>Legal</span></div>
+                <div class="category-item"><i class="fa-solid fa-wheelchair"></i><span>Disability</span></div>
+              </div>
+              <div class="card mt-4">
+                <h3>Featured Program</h3>
+                <p>Al-Khidmat Foundation Scholarship 2026. Supporting bright students across Pakistan.</p>
+                <button class="btn mt-2">Learn More</button>
+              </div>
+            </div>
+            <div class="dashboard-right">
+              <div class="card mb-4" onclick="openPage('nearby')" style="cursor: pointer">
+                <h3>Nearby Centers</h3>
+                <div class="map-preview">
+                  <i class="fa-solid fa-map-location-dot fa-3x mb-2" style="color: var(--primary)"></i>
+                  <p>Click to view welfare centers near you</p>
+                </div>
+              </div>
+              <div class="card">
+                <h3>Recommended</h3>
+                <ul class="recommended-list">
+                  <li><i class="fa-solid fa-star"></i> Benazir Income Support</li>
+                  <li><i class="fa-solid fa-star"></i> Sehat Sahulat Card</li>
+                  <li><i class="fa-solid fa-star"></i> Edhi Relief Trust</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PAGE: assistant -->
+        <div class="page" id="page-assistant">
+          <div class="chat-container card">
+            <div id="chatHistory" class="chat-history"></div>
+            <div class="chat-quick-suggestions">
+              <button class="btn btn-outline-white" onclick="quickAsk('How to apply for BISP?')"><i class="fa-solid fa-comment-dots"></i> How to apply for BISP?</button>
+              <button class="btn btn-outline-white" onclick="quickAsk('Find a hospital nearby')"><i class="fa-solid fa-hospital"></i> Find hospital</button>
+            </div>
+            <div class="chat-input-area">
+              <input type="text" id="chatInput" placeholder="Ask KhidmatAI..." />
+              <button class="btn" onclick="sendChat()"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PAGE: eligibility -->
+        <div class="page" id="page-eligibility">
+          <div class="card">
+            <h3>Check Your Eligibility</h3>
+            <div class="form-group">
+              <label><i class="fa-solid fa-id-card"></i> CNIC</label>
+              <input type="text" id="eligibilityCnic" placeholder="12345-1234567-1" />
+            </div>
+            <div class="form-group">
+              <label><i class="fa-solid fa-money-bill"></i> Monthly Income</label>
+              <input type="number" id="eligibilityIncome" placeholder="e.g. 25000" />
+            </div>
+            <button class="btn" onclick="checkEligibilityWizard()">Check Now</button>
+            <div id="eligibilityResult" class="mt-4"></div>
+          </div>
+        </div>
+
+        <!-- PAGE: nearby -->
+        <div class="page" id="page-nearby">
+          <div class="card map-card">
+            <h3>Find Welfare Centers</h3>
+            <div class="map-controls mb-2">
+              <button class="btn" onclick="searchNearbyMap()"><i class="fa-solid fa-location-crosshairs"></i> Locate Me</button>
+            </div>
+            <div id="mapView" style="height: 500px; width: 100%; border-radius: 8px;"></div>
+          </div>
+        </div>
+
+        <!-- PAGE: programs -->
+        <div class="page" id="page-programs">
+          <div class="card">
+            <h3>Welfare Directory</h3>
+            <div class="programs-grid" id="programsGrid">
+              <!-- Loaded dynamically -->
+            </div>
+          </div>
+        </div>
+
+        <!-- PAGE: saved -->
+        <div class="page" id="page-saved">
+          <div class="card">
+            <h3>Saved Items</h3>
+            <div id="savedList"></div>
+          </div>
+        </div>
+
+        <!-- PAGE: emergency -->
+        <div class="page" id="page-emergency">
+          <div class="card emergency-card">
+            <h3 style="color: var(--danger)"><i class="fa-solid fa-triangle-exclamation"></i> Emergency Contacts</h3>
+            <div id="emergencyList">
+              <ul style="list-style: none; padding: 0;">
+                <li class="mb-2"><strong>Edhi Ambulance:</strong> 115</li>
+                <li class="mb-2"><strong>Chhipa Ambulance:</strong> 1020</li>
+                <li class="mb-2"><strong>Police:</strong> 15</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- PAGE: about -->
+        <div class="page" id="page-about">
+          <div class="card">
+            <h3>About KhidmatAI</h3>
+            <p>KhidmatAI is a comprehensive platform built to bridge the gap between welfare organizations and those in need.</p>
+          </div>
+        </div>
+
+        <!-- PAGE: contact -->
+        <div class="page" id="page-contact">
+          <div class="card">
+            <h3>Get in Touch</h3>
+            <div class="contact-info mb-4" id="contactInfoDisplay">
+              <!-- Loaded dynamically -->
+              <p><i class="fa-solid fa-phone"></i> +92 300 1234567</p>
+              <p><i class="fa-solid fa-envelope"></i> info@khidmatai.org</p>
+            </div>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent!');">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" required />
+              </div>
+              <div class="form-group">
+                <label>Phone</label>
+                <input type="text" required />
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- PAGE: regions -->
+        <div class="page" id="page-regions">
+          <div class="card">
+            <h3>Our Regions</h3>
+            <div class="regions-grid">
+              <div class="region-card"><h4>Punjab</h4><p>250+ Programs</p></div>
+              <div class="region-card"><h4>Sindh</h4><p>150+ Programs</p></div>
+              <div class="region-card"><h4>KPK</h4><p>100+ Programs</p></div>
+              <div class="region-card"><h4>Balochistan</h4><p>50+ Programs</p></div>
+              <div class="region-card"><h4>Gilgit Baltistan</h4><p>30+ Programs</p></div>
+              <div class="region-card"><h4>AJK</h4><p>40+ Programs</p></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PAGE: news -->
+        <div class="page" id="page-news">
+          <div class="card">
+            <h3>News & Updates</h3>
+            <div class="news-list">
+              <div class="news-item"><h4>New Relief Fund Announced</h4><p>Date: 2026-08-28</p></div>
+              <div class="news-item"><h4>Scholarship Applications Open</h4><p>Date: 2026-08-25</p></div>
+              <div class="news-item"><h4>Health Camp in Karachi</h4><p>Date: 2026-08-20</p></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PAGE: privacy -->
+        <div class="page" id="page-privacy">
+          <div class="card">
+            <h3>Privacy Policy</h3>
+            <p>Your privacy is important to us. We securely store and process your data according to the laws of Pakistan.</p>
+          </div>
+        </div>
+
+        <!-- PAGE: register -->
+        <div class="page" id="page-register">
+          <div class="card">
+            <h3>Organization Registration</h3>
+            <form onsubmit="event.preventDefault(); submitOrgRegistration();">
+              <div class="form-group">
+                <label>Organization Name</label>
+                <input type="text" id="regOrgName" required />
+              </div>
+              <div class="form-group">
+                <label>Type</label>
+                <select id="regOrgType" required>
+                  <option value="Welfare Trust">Welfare Trust</option>
+                  <option value="Hospital">Hospital</option>
+                  <option value="University">University</option>
+                  <option value="NGO">NGO</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Contact Number</label>
+                <input type="text" id="regOrgContact" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="regOrgEmail" required />
+              </div>
+              <div class="form-group">
+                <label>Address</label>
+                <input type="text" id="regOrgAddress" required />
+              </div>
+              <div class="form-group">
+                <label>Province</label>
+                <select id="regOrgProvince" required>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Sindh">Sindh</option>
+                  <option value="KPK">KPK</option>
+                  <option value="Balochistan">Balochistan</option>
+                  <option value="GB">Gilgit Baltistan</option>
+                  <option value="AJK">AJK</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Description</label>
+                <textarea id="regOrgDesc" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn">Register Organization</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- PAGE: settings -->
+        <div class="page" id="page-settings">
+          <div class="card">
+            <h3>Settings</h3>
+            <div class="form-group">
+              <label>Auto Text-to-Speech</label>
+              <input type="checkbox" id="settingTts" />
+            </div>
+          </div>
+        </div>
+
+        <!-- PAGE: help -->
+        <div class="page" id="page-help">
+          <div class="card">
+            <h3>Help & Support</h3>
+            <p>If you need assistance using this portal, please visit our nearest center or use the AI assistant.</p>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+          <div class="footer-grid">
+            <div class="footer-col">
+              <h4>About</h4>
+              <ul>
+                <li><a href="#" onclick="openPage('about')">About Us</a></li>
+                <li><a href="#">President Message</a></li>
+                <li><a href="#">Women Philanthropy</a></li>
+                <li><a href="#" onclick="openPage('privacy')">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#" onclick="openPage('dashboard')">Home</a></li>
+                <li><a href="#" onclick="openPage('news')">News</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Downloads</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="#" onclick="openPage('programs')">Programs</a></li>
+                <li><a href="#" onclick="openPage('eligibility')">Eligibility</a></li>
+                <li><a href="#" onclick="openPage('register')">Register NGO</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact</h4>
+              <ul>
+                <li><a href="#" onclick="openPage('contact')">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Impacts</a></li>
+                <li><a href="#">Media Coverage</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

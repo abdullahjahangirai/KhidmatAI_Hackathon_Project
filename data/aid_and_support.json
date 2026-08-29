@@ -1,0 +1,646 @@
+[
+  {
+    "id": "pm_youth_skill_development",
+    "title": "Prime Minister's Youth Skill Development Program (PMYSDP)",
+    "category": "Employment / Skill Development",
+    "type": "Technical & Vocational Training / Government Program",
+    "description": "National flagship initiative providing free technical and vocational training to youth aged 18-40. Market-driven courses in IT, high-tech trades, and conventional skills. Aims to bring youth skills to international standards and create a competitive workforce.",
+    "address": "NAVTTC Headquarters, Islamabad (Multiple training centers across Pakistan)",
+    "phone_number": "NAVTTC office in major cities, check pmyp.gov.pk for local centers",
+    "support": [
+      "Free Technical & Vocational Training",
+      "Market-Driven Course Curriculum",
+      "IT and High-Tech Skill Development",
+      "Conventional Trade Training (less developed areas)",
+      "Apprenticeship Programs",
+      "International Standard Certification",
+      "Employment Placement Assistance",
+      "Freelancing and Entrepreneurship Support",
+      "Special quotas for women and differently-abled youth",
+      "Partnerships with global platforms (Coursera, Microsoft)"
+    ],
+    "eligibility": [
+      "Pakistani citizens aged 18-40 years",
+      "Minimum education: Matric or Intermediate (course-dependent)",
+      "Valid CNIC required",
+      "All genders welcome",
+      "Special quotas for female and differently-abled candidates",
+      "No experience required for most courses",
+      "No income restriction"
+    ],
+    "documents": [
+      "CNIC (Computerized National Identity Card)",
+      "Educational certificates (Matric/Intermediate)",
+      "Passport (if international participation)"
+    ],
+    "application": "Visit pmyp.gov.pk or NAVTTC centers. Create profile with CNIC and details. Select courses. Online application form submission. Quarterly batch openings - early registration recommended due to limited seats.",
+    "locations": [
+      "All Pakistan",
+      "All provinces",
+      "NAVTTC centers nationwide",
+      "Multiple partner institutes"
+    ],
+    "keywords": [
+      "skill development",
+      "free training",
+      "vocational education",
+      "employment opportunity",
+      "youth empowerment",
+      "IT training",
+      "PMYSDP",
+      "international certification"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Prime Minister's Youth Programme (PMYP) - NAVTTC",
+    "source_url": "https://pmyp.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "saylani_mass_it_training",
+    "title": "Saylani Mass IT Training (SMIT)",
+    "category": "Employment / Skill Development",
+    "type": "Free IT Training / Welfare Organization Program",
+    "description": "Flagship free IT training by Saylani Welfare Trust. Provides hands-on, industry-relevant technology education to 75,000+ students. Over 80 specialized courses in web development, app development, graphic design, cybersecurity, and more. Project-based learning with mentoring.",
+    "address": "Saylani Welfare Trust centers across major cities (Karachi, Lahore, Hyderabad, Islamabad, Faisalabad, etc.)",
+    "phone_number": "Check saylaniwelfare.com for center numbers, Toll-free helpline available",
+    "support": [
+      "Free IT Training (80+ courses)",
+      "Web/App Development (HTML5, CSS3, JavaScript, React, Angular)",
+      "CCNA Networking",
+      "Graphics Designing",
+      "Computer-Based Accounting",
+      "Video Editing",
+      "Power BI & Data Analysis",
+      "IT Support Training",
+      "Industry Expert Mentoring",
+      "Project-Based Learning",
+      "Career Development Support",
+      "Online and In-Person Options",
+      "Year-round enrollment"
+    ],
+    "eligibility": [
+      "Pakistani citizens",
+      "Minimum basic computer skills required",
+      "No age restriction explicitly stated",
+      "College students encouraged",
+      "Unemployed individuals welcome",
+      "High dedication and commitment required",
+      "Open to domestic and international applicants"
+    ],
+    "documents": [
+      "CNIC or identification document",
+      "Contact details",
+      "Educational background (if applicable)"
+    ],
+    "application": "Visit forms.saylaniwelfare.com. Complete online application form. Provide contact information. Enroll in desired course. Training starts based on batch schedule. Year-round admission with rolling intakes.",
+    "locations": [
+      "Karachi (main hub)",
+      "Lahore",
+      "Hyderabad",
+      "Faisalabad",
+      "Islamabad",
+      "Multiple branches nationwide"
+    ],
+    "keywords": [
+      "free IT training",
+      "web development",
+      "app development",
+      "graphic design",
+      "CCNA",
+      "freelancing courses",
+      "Saylani",
+      "industry training",
+      "hands-on learning"
+    ],
+    "latitude": 24.9124,
+    "longitude": 67.0705,
+    "source_name": "Saylani Welfare Trust - Saylani Mass IT Training",
+    "source_url": "https://saylaniwelfare.com/services/education/technical-education/saylani-mass-it-training",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "tevta_vocational_training",
+    "title": "Technical Education & Vocational Training Authority (TEVTA)",
+    "category": "Employment / Skill Development",
+    "type": "Government Vocational Institute / Long-Term Diploma",
+    "description": "Punjab's official TVET authority managing 150+ vocational institutes. Offers short-term to diploma courses (3-24 months) in technical trades and industrial skills. Free training with monthly stipends. Government-recognized certifications.",
+    "address": "TEVTA Secretariat, 96-H Gulberg-II, Lahore (Multiple institutes across Punjab districts)",
+    "phone_number": "TEVTA office (Lahore): 042-35839641-50, District offices available",
+    "support": [
+      "Free Vocational Training",
+      "Short Duration Courses (3-6 months)",
+      "Diploma Programs (12-24 months)",
+      "Technical Trades (Electrician, Plumbing, Welding, AC/Refrigeration)",
+      "Industrial Skills Training",
+      "Monthly Stipend (Rs. 7,500 per month)",
+      "Government-Recognized Certificates",
+      "Gender-Specific Programs (GVTIs for women)",
+      "Apprenticeship Training",
+      "Post-Course Job Placement",
+      "International Employment Opportunities (Saudi Arabia, UAE)",
+      "Construction Sector Programs"
+    ],
+    "eligibility": [
+      "Pakistani citizens aged 18-25+ (varies by course)",
+      "Minimum Matric qualification (some courses Intermediate)",
+      "Valid CNIC required",
+      "Punjab residents",
+      "Aptitude tests may be required",
+      "No previous experience needed",
+      "Special quotas for women and minorities"
+    ],
+    "documents": [
+      "CNIC",
+      "Educational certificates (Matric/Intermediate)",
+      "Proof of residence",
+      "Medical fitness certificate (if required)"
+    ],
+    "application": "Visit tevta.gop.pk for course listings. Download application form. Submit to nearest GTTI/GVTI with documents. Quarterly admissions. Interview may be conducted. Selection announced on website.",
+    "locations": [
+      "Punjab (all districts)",
+      "Lahore, Faisalabad, Rawalpindi, Multan, Bahawalpur, Sargodha, Dera Ghazi Khan",
+      "150+ institutes nationwide"
+    ],
+    "keywords": [
+      "vocational training",
+      "technical education",
+      "free courses",
+      "government diploma",
+      "employment training",
+      "skill certification",
+      "TEVTA",
+      "construction training"
+    ],
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "source_name": "Technical Education & Vocational Training Authority (TEVTA), Punjab",
+    "source_url": "https://tevta.gop.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "national_freelance_training_program",
+    "title": "National Freelance Training Program (NFTP)",
+    "category": "Employment / Skill Development",
+    "type": "Freelancing & Digital Skills Training",
+    "description": "Government-backed program by Ministry of IT & Telecommunication and Punjab Information Technology Board. Provides contemporary freelancing training across 20 centers nationwide. Aims to empower 22,000+ individuals for self-sustainable remote income generation.",
+    "address": "20 Centers across Pakistan (Digital centers in major cities + academic partner institutions)",
+    "phone_number": "Available through nftp.pitb.gov.pk, contact partner institutes",
+    "support": [
+      "Free Freelancing Training",
+      "Technical/Programming Courses",
+      "Content Marketing & Advertising",
+      "Creative Designing Courses",
+      "E-Commerce Fundamentals",
+      "3-Month Structured Courses",
+      "Online and Physical Training Options",
+      "Global Freelancer Network Access",
+      "Skill Certification",
+      "Income Generation Opportunities (Fiverr, Upwork, PeoplePerHour)",
+      "Career Development Guidance"
+    ],
+    "eligibility": [
+      "Pakistani citizens",
+      "Basic computer skills required",
+      "Age 18-40+ (general guideline)",
+      "Valid CNIC",
+      "Stable internet connection (for online courses)",
+      "Commitment to complete training",
+      "No previous professional experience needed"
+    ],
+    "documents": [
+      "CNIC",
+      "Contact details",
+      "Basic educational background"
+    ],
+    "application": "Visit nftp.pitb.gov.pk/registration. Complete online signup form. Take 30-minute MCQ test (48 hours to complete). Submit documents for verification. Document verification by NFTP team. Enroll in course upon confirmation.",
+    "locations": [
+      "18 cities across Pakistan",
+      "20 state-of-art centers",
+      "Online platforms available",
+      "Partner universities (NED Karachi, QUEST Nawabshah, UET Jamshoro)"
+    ],
+    "keywords": [
+      "freelancing training",
+      "digital skills",
+      "online income",
+      "remote work",
+      "e-commerce",
+      "content marketing",
+      "creative design",
+      "NFTP"
+    ],
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "source_name": "National Freelance Training Program (NFTP) - PITB",
+    "source_url": "https://nftp.pitb.gov.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "digiskills_pakistan",
+    "title": "DigiSkills Pakistan (DigiSkills.pk)",
+    "category": "Employment / Skill Development",
+    "type": "Free Online Digital Skills Training",
+    "description": "Largest online training program in Pakistan offering 100% free digital skills courses with government-recognized e-certificates. 5.5 million+ trainings delivered since 2018. Enables freelancing and remote earning. Batch-based enrollment with limited seats.",
+    "address": "Online Platform / Virtual University of Pakistan coordination",
+    "phone_number": "Available through digiskills.pk website, Virtual University support",
+    "support": [
+      "Free Online Courses (20+ specializations)",
+      "Freelancing Skills Training",
+      "SEO & Digital Marketing",
+      "E-Commerce Management",
+      "Graphic Design & Video Editing",
+      "Data Analytics & Business Intelligence",
+      "WordPress & Web Development",
+      "QuickBooks & Accounting",
+      "Virtual Assistant Training",
+      "Creative Writing Courses",
+      "Animation & Vlogging",
+      "Government E-Certificates",
+      "Remote Learning Flexibility",
+      "Batch-based Structured Learning"
+    ],
+    "eligibility": [
+      "Pakistani citizens",
+      "Minimum qualification: Matriculation (9-10 years education)",
+      "Valid CNIC required",
+      "Internet connection essential",
+      "All ages welcome",
+      "No experience required",
+      "Women empowerment focus - learn from home"
+    ],
+    "documents": [
+      "CNIC",
+      "Email address",
+      "Contact information"
+    ],
+    "application": "Visit digiskills.pk/Register. Create account with CNIC and email. Select course preference (2 courses per batch). Complete online registration. Watch course videos through Learning Management System (LMS). Complete assignments and assessment. Receive e-certificate upon completion.",
+    "locations": [
+      "All Pakistan (Online)",
+      "Virtual University of Pakistan coordination",
+      "Accessible nationwide"
+    ],
+    "keywords": [
+      "free online courses",
+      "digital skills",
+      "e-certificate",
+      "freelancing training",
+      "remote earning",
+      "digital marketing",
+      "graphic design",
+      "DigiSkills"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "DigiSkills.pk - Virtual University of Pakistan",
+    "source_url": "https://digiskills.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "pseb_it_training",
+    "title": "Pakistan Software Export Board (PSEB) - IT Training Programs",
+    "category": "Employment / Skill Development",
+    "type": "Advanced IT Training / Professional Development",
+    "description": "Government IT training by Pakistan Software Export Board. Specialized programs in software development, cybersecurity, cloud computing, and project management. Bridges gap between education and industry requirements. Prepares professionals for global IT sector.",
+    "address": "PSEB Headquarters, 6th Floor New State Life Tower, Blue Area, Islamabad",
+    "phone_number": "PSEB recruitment email and National Job Portal njp.gov.pk",
+    "support": [
+      "Advanced Software Development Training",
+      "Full-Stack Development (frontend & backend)",
+      "Cybersecurity & Ethical Hacking",
+      "Cloud Computing (AWS, Azure, Google Cloud)",
+      "Project Management Professional (PMP)",
+      "Network Security Training",
+      "Incident Response Programs",
+      "CompTIA Security+ Certification",
+      "CEH (Certified Ethical Hacker) Courses",
+      "CISSP Training",
+      "Industry Expert Instruction",
+      "Market-Aligned Curriculum"
+    ],
+    "eligibility": [
+      "Pakistani citizens with valid CNIC",
+      "IT graduates or professionals",
+      "For specific programs: 5+ years experience (PMP)",
+      "Maximum age 50 years (general), 55 years (PMP)",
+      "Nomination through employment recommendation",
+      "High academic/professional qualifications",
+      "Passion for software development/IT"
+    ],
+    "documents": [
+      "CNIC",
+      "Educational certificates (relevant degrees)",
+      "Work experience letters (if applicable)",
+      "Employer recommendation (for some programs)"
+    ],
+    "application": "Check PSEB official website or National Job Portal (njp.gov.pk). Submit application with CV and credentials. Application review process. Shortlist and interview. Training enrollment upon selection.",
+    "locations": [
+      "Islamabad (main center)",
+      "Karachi office",
+      "Major cities through partner institutes"
+    ],
+    "keywords": [
+      "IT training",
+      "software development",
+      "cybersecurity",
+      "cloud computing",
+      "professional certification",
+      "ethical hacking",
+      "PSEB",
+      "advanced skills"
+    ],
+    "latitude": 33.7298,
+    "longitude": 73.1786,
+    "source_name": "Pakistan Software Export Board (PSEB)",
+    "source_url": "https://www.pseb.org.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "punjab_skills_development_fund",
+    "title": "Punjab Skills Development Fund (PSDF)",
+    "category": "Employment / Skill Development",
+    "type": "Skills Training with Stipends / Government Program",
+    "description": "Punjab's largest skills development fund providing free, stipend-supported vocational training. Partnerships with 250+ institutes. Demand-driven trades in IT, healthcare, construction, hospitality. Gender-inclusive with special programs for rural women.",
+    "address": "PSDF Headquarters, 21-A H Block, Dr. Mateen Fatima Road, Gulberg II, Lahore",
+    "phone_number": "PSDF office in Lahore, check psdf.org.pk for regional contacts",
+    "support": [
+      "Free Vocational Training",
+      "Monthly Stipends (varies by program)",
+      "IT & Digital Skills Courses",
+      "Healthcare Training",
+      "Construction & Technical Skills",
+      "Hospitality & Tourism",
+      "Fashion & Textile Design",
+      "Mein Digital Program (rural women)",
+      "Parwaaz International Placement",
+      "Certificate Courses",
+      "Employment Placement Assistance",
+      "Overseas Employment Opportunities (Saudi Arabia, UAE)"
+    ],
+    "eligibility": [
+      "Pakistani citizens aged 18-35 years",
+      "Valid CNIC required",
+      "Punjab domicile/residency",
+      "Minimum education: Middle (8th grade) pass",
+      "Can apply while awaiting results",
+      "Special programs for women (Mein Digital: age 21-40, 16 years education)",
+      "Rural areas prioritized for certain programs",
+      "Minorities and marginalized groups included"
+    ],
+    "documents": [
+      "CNIC",
+      "Educational certificates",
+      "Proof of Punjab residence",
+      "Recent photograph"
+    ],
+    "application": "Visit psdf.org.pk. Browse available courses. Apply online through PSDF portal. Submit required documents. Application review and verification. Admission confirmation with course start date.",
+    "locations": [
+      "Punjab (all districts)",
+      "Partner institutes across province",
+      "250+ training centers",
+      "Major cities: Lahore, Faisalabad, Multan, Rawalpindi, Bahawalpur"
+    ],
+    "keywords": [
+      "skills training",
+      "monthly stipend",
+      "vocational education",
+      "employment support",
+      "women empowerment",
+      "PSDF",
+      "Mein Digital",
+      "international placement"
+    ],
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "source_name": "Punjab Skills Development Fund (PSDF)",
+    "source_url": "https://psdf.org.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "akhuwat_skill_development",
+    "title": "Akhuwat Foundation - Interest-Free Loans for Skill Development",
+    "category": "Employment / Skill Development",
+    "type": "Microfinance for Vocational Training / Interest-Free Loans",
+    "description": "World's largest interest-free microfinance institution providing Qarz-e-Hasna loans for skill development and business. 800+ branches across Pakistan. Empowers 6+ million families. Supports vocational training, business startups, education, and economic self-reliance.",
+    "address": "Akhuwat Foundation Headquarters, Lahore (800+ branches nationwide)",
+    "phone_number": "Helpline: 03478-787-646, Local branch contact available",
+    "support": [
+      "Interest-Free Microloans (Qarz-e-Hasna)",
+      "Vocational Training Loans",
+      "Business Startup Capital",
+      "Education Financing",
+      "Home Construction/Renovation",
+      "Emergency Financial Support",
+      "Khawajasira Support Program (transgender empowerment)",
+      "Healthcare Access",
+      "Primary & Secondary Education Support",
+      "Agricultural Loans (for farmers)",
+      "Flexible Repayment (up to 10 years)",
+      "No Collateral Required"
+    ],
+    "eligibility": [
+      "Pakistani citizens with valid CNIC",
+      "Age 18-60 years",
+      "Low-income household status",
+      "Businessperson or skill-seeking individual",
+      "Sound character and reputation",
+      "Commitment to repay loan",
+      "Two community sponsors (Zamin) needed",
+      "No involvement in illegal activities"
+    ],
+    "documents": [
+      "CNIC (Computerized National Identity Card)",
+      "Proof of residence (Utility bill)",
+      "Business plan (if loan for business)",
+      "Medical report (if health-related)",
+      "Character certificate (recommended)",
+      "Sponsor documentation"
+    ],
+    "application": "Visit nearest Akhuwat branch or apply online. Complete application form with details. Document submission and verification. Home/business visit by field officer. Committee review. Loan approval and disbursement (7-21 days).",
+    "locations": [
+      "All Pakistan",
+      "800+ branches nationwide",
+      "Urban and rural coverage"
+    ],
+    "keywords": [
+      "interest-free loan",
+      "microfinance",
+      "skill development",
+      "business loan",
+      "Qarz-e-Hasna",
+      "Akhuwat",
+      "poverty alleviation",
+      "economic empowerment"
+    ],
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "source_name": "Akhuwat Foundation",
+    "source_url": "https://akhuwat.org.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "stevta_sindh",
+    "title": "Sindh Technical Education & Vocational Training Authority (STEVTA)",
+    "category": "Employment / Skill Development",
+    "type": "Provincial Vocational Training / Government Institute",
+    "description": "Sindh's official TVET authority managing technical and vocational institutes. Provides training in demand-driven trades for youth employment. Regulated technical institutes across Sindh. Government-recognized certifications and diplomas.",
+    "address": "STEVTA Headquarters, Karachi (Multiple institutes across Sindh)",
+    "phone_number": "STEVTA office Karachi, District offices in major cities",
+    "support": [
+      "Vocational Training in Technical Trades",
+      "Short-Term Courses (3-6 months)",
+      "Diploma Programs (12-24 months)",
+      "Construction Sector Training",
+      "Healthcare Skills",
+      "Hospitality & Tourism",
+      "Agricultural Skills",
+      "Industrial Training",
+      "Government-Recognized Certificates",
+      "Employment Assistance",
+      "Regional Youth Empowerment"
+    ],
+    "eligibility": [
+      "Sindh residents",
+      "Age 18+ years",
+      "Minimum Matric qualification",
+      "Valid CNIC",
+      "Pakistani citizen",
+      "No experience required",
+      "All genders welcome"
+    ],
+    "documents": [
+      "CNIC",
+      "Educational certificates (Matric)",
+      "Proof of Sindh residence",
+      "Medical fitness certificate (if required)"
+    ],
+    "application": "Visit STEVTA website. Browse vocational programs. Submit application with documents. Registration at nearest institute. Admission process completion. Course enrollment.",
+    "locations": [
+      "Sindh Province",
+      "Karachi (main city)",
+      "Hyderabad, Sukkur, Shaheed Benazirabad, Jacobabad",
+      "District centers across Sindh"
+    ],
+    "keywords": [
+      "vocational training",
+      "technical education",
+      "Sindh jobs",
+      "skill development",
+      "government training",
+      "STEVTA",
+      "youth employment"
+    ],
+    "latitude": 24.8608,
+    "longitude": 67.0104,
+    "source_name": "Sindh Technical Education & Vocational Training Authority (STEVTA)",
+    "source_url": "https://stevta.gos.pk/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "saylani_vocational_welfare",
+    "title": "Saylani Welfare Trust - Vocational Training Programs",
+    "category": "Employment / Skill Development",
+    "type": "Free Welfare-Based Vocational Training",
+    "description": "Saylani Welfare Trust's vocational training division providing comprehensive free training. Covers nursing, cooking, tailoring, driving, beautician courses. Focus on practical skills for immediate employment. Supports underprivileged individuals.",
+    "address": "Saylani Welfare Trust centers across Pakistan",
+    "phone_number": "Check saylaniwelfare.com for center contacts",
+    "support": [
+      "Free Nursing Courses",
+      "Cooking & Culinary Training",
+      "Tailoring & Fashion Design",
+      "Driving Courses",
+      "Beautician Training",
+      "Hairdressing Skills",
+      "Domestic Help Training",
+      "Practical Skill Development",
+      "Certificate Upon Completion",
+      "Employment Assistance",
+      "Financial Support (in some cases)"
+    ],
+    "eligibility": [
+      "Pakistani citizens",
+      "Underprivileged/deserving individuals",
+      "Age 16+ years",
+      "Valid CNIC or ID",
+      "Commitment to training",
+      "No formal education requirement for most courses",
+      "Open to all genders"
+    ],
+    "documents": [
+      "CNIC or identification",
+      "Contact details",
+      "Proof of need/background"
+    ],
+    "application": "Contact nearest Saylani center. Complete enrollment form. Provide basic information. Register for desired course. Training starts based on batch schedule.",
+    "locations": [
+      "Karachi (main hub)",
+      "Lahore, Hyderabad",
+      "Multiple welfare centers nationwide"
+    ],
+    "keywords": [
+      "vocational training",
+      "free courses",
+      "nursing training",
+      "domestic skills",
+      "Saylani",
+      "welfare program",
+      "underprivileged support"
+    ],
+    "latitude": 24.9124,
+    "longitude": 67.0705,
+    "source_name": "Saylani Welfare Trust",
+    "source_url": "https://saylaniwelfare.com/",
+    "verified_at": "2026-08-28"
+  },
+  {
+    "id": "hunarmand_pakistan",
+    "title": "Hunarmand Pakistan Program",
+    "category": "Employment / Skill Development",
+    "type": "Youth Skills Training / Government Initiative",
+    "description": "National youth skill development program providing vocational training in various trades. Focus on employment creation and self-reliance. Covers high-demand sectors. Government-backed with certification and placement support.",
+    "address": "Multiple training centers across Pakistan provinces",
+    "phone_number": "Provincial labor/skills department contacts",
+    "support": [
+      "Free Vocational Training",
+      "Market-Driven Course Curriculum",
+      "Trade-Specific Skills",
+      "Employment Placement",
+      "Government Certification",
+      "Career Counseling",
+      "Self-Employment Support",
+      "Entrepreneurship Training",
+      "Quality Assurance"
+    ],
+    "eligibility": [
+      "Pakistani citizens",
+      "Youth aged 18-40 years",
+      "Valid CNIC",
+      "Minimum education as per course requirement",
+      "No prior experience needed",
+      "All provinces covered"
+    ],
+    "documents": [
+      "CNIC",
+      "Educational certificates",
+      "Contact information"
+    ],
+    "application": "Check provincial labor department website. Browse available programs. Complete application. Submit documents. Admission upon verification.",
+    "locations": [
+      "All Pakistan",
+      "All provinces and territories"
+    ],
+    "keywords": [
+      "youth training",
+      "skill development",
+      "employment program",
+      "government initiative",
+      "Hunarmand",
+      "vocational education"
+    ],
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "source_name": "Ministry of Overseas Pakistanis & Human Resource Development",
+    "source_url": "https://www.opcweb.org/",
+    "verified_at": "2026-08-28"
+  }
+]

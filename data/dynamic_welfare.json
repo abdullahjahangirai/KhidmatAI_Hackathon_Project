@@ -1,0 +1,27 @@
+[
+  {
+    "id": "dynamic_automated_verified_scheme_2026_1787864608",
+    "title": "Automated Verified Scheme 2026",
+    "category": "Financial Aid",
+    "type": "Government / NGO Initiative",
+    "description": "Auto discovered test program via live search",
+    "support": [
+      "Cash stipend of Rs 5000/month"
+    ],
+    "eligibility": [
+      "Monthly income under 30000"
+    ],
+    "documents": [
+      "CNIC",
+      "Proof of Residence / Income"
+    ],
+    "application": "Visit the official portal or nearest facilitation desk.",
+    "locations": [
+      "Pakistan"
+    ],
+    "source_name": "Verified Portal",
+    "source_url": "https://example.gov.pk/scheme",
+    "verified_at": "2026-08-27",
+    "dynamic_saved": true
+  }
+]

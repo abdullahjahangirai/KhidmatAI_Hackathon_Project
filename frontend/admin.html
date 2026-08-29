@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KhidmatAI Admin Panel</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/admin.css">
+</head>
+<body class="admin-body">
+
+<div id="loginScreen" class="login-overlay">
+  <div class="login-box">
+    <div class="login-brand">
+      <img src="/static/khidmatai-logo.png" alt="KhidmatAI" width="52">
+      <div><b>KhidmatAI</b><small>Admin Panel</small></div>
+    </div>
+    <h2>Administrator Login</h2>
+    <div id="loginError" class="login-error" style="display:none;"></div>
+    <div class="form-group">
+      <label>Username</label>
+      <input type="text" id="loginUser" placeholder="admin" autocomplete="username">
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" id="loginPass" placeholder="Password" autocomplete="current-password">
+    </div>
+    <button class="btn-primary btn-full" onclick="adminLogin()">
+      <i class="fa-solid fa-right-to-bracket"></i> Login
+    </button>
+    <div class="login-hint"><i class="fa-solid fa-shield-halved"></i> Secure Admin Access Only</div>
+  </div>
+</div>
+
+<div id="adminDashboard" class="admin-dashboard" style="display:none;">
+  <aside class="admin-sidebar">
+    <div class="admin-brand">
+      <img src="/static/khidmatai-logo.png" alt="KhidmatAI" width="36">
+      <div><b>KhidmatAI</b><small>Admin</small></div>
+    </div>
+    <nav class="admin-nav">
+      <button class="admin-nav-item active" data-panel="overview" onclick="showPanel('overview')">
+        <i class="fa-solid fa-chart-pie"></i> Overview
+      </button>
+      <button class="admin-nav-item" data-panel="hero" onclick="showPanel('hero')">
+        <i class="fa-solid fa-images"></i> Hero Slider
+      </button>
+      <button class="admin-nav-item" data-panel="ticker" onclick="showPanel('ticker')">
+        <i class="fa-solid fa-bullhorn"></i> Ticker &amp; Alerts
+      </button>
+      <button class="admin-nav-item" data-panel="contact" onclick="showPanel('contact')">
+        <i class="fa-solid fa-address-card"></i> Contact Settings
+      </button>
+      <button class="admin-nav-item" data-panel="organizations" onclick="showPanel('organizations')">
+        <i class="fa-solid fa-building"></i> Organizations
+        <span class="badge" id="pendingBadge" style="display:none;">0</span>
+      </button>
+    </nav>
+    <div class="admin-sidebar-footer">
+      <a href="/" target="_blank" class="admin-nav-item" style="display:flex;align-items:center;gap:8px;color:inherit;text-decoration:none;">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Site
+      </a>
+      <button class="admin-nav-item danger" onclick="adminLogout()">
+        <i class="fa-solid fa-right-from-bracket"></i> Logout
+      </button>
+    </div>
+  </aside>
+
+  <main class="admin-main">
+    <header class="admin-header">
+      <h1 id="adminPanelTitle">Dashboard Overview</h1>
+      <div class="admin-header-user"><i class="fa-solid fa-user-shield"></i> Administrator</div>
+    </header>
+
+    <div class="admin-panel active" id="panel-overview">
+      <div class="admin-stats-grid">
+        <div class="admin-stat-card"><i class="fa-solid fa-folder-open"></i><div><b id="stat-programs">--</b><span>Welfare Programs</span></div></div>
+        <div class="admin-stat-card"><i class="fa-solid fa-building"></i><div><b id="stat-orgs">0</b><span>Organizations</span></div></div>
+        <div class="admin-stat-card warning"><i class="fa-solid fa-clock"></i><div><b id="stat-pending">0</b><span>Pending Approvals</span></div></div>
+        <div class="admin-stat-card success"><i class="fa-solid fa-images"></i><div><b id="stat-slides">0</b><span>Hero Slides</span></div></div>
+      </div>
+      <div class="admin-card">
+        <h3>Quick Actions</h3>
+        <div class="quick-action-grid">
+          <button class="qa-btn" onclick="showPanel('hero')"><i class="fa-solid fa-plus"></i> Add Hero Slide</button>
+          <button class="qa-btn" onclick="showPanel('organizations')"><i class="fa-solid fa-check"></i> Review Registrations</button>
+          <button class="qa-btn" onclick="showPanel('contact')"><i class="fa-solid fa-pen"></i> Update Contact</button>
+          <button class="qa-btn" onclick="showPanel('ticker')"><i class="fa-solid fa-bullhorn"></i> Edit Ticker</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="admin-panel" id="panel-hero">
+      <div class="admin-card">
+        <div class="panel-head">
+          <h3><i class="fa-solid fa-images"></i> Hero Slider Management</h3>
+          <small>Manage the images and videos displayed in the homepage hero banner.</small>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Slide Type</label>
+            <select id="newSlideType">
+              <option value="image">Image (URL)</option>
+              <option value="video">Video (URL)</option>
+              <option value="color">Solid Color</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>URL or Color (hex)</label>
+            <input type="text" id="newSlideUrl" placeholder="https://... or #0A5C36">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Caption (English)</label>
+          <input type="text" id="newSlideCaption" placeholder="English caption">
+        </div>
+        <div class="form-group">
+          <label>Caption (Urdu)</label>
+          <input type="text" id="newSlideCaptionUrdu" placeholder="اردو کیپشن">
+        </div>
+        <button class="btn-primary" onclick="addHeroSlide()"><i class="fa-solid fa-plus"></i> Add Slide</button>
+      </div>
+      <div class="admin-card" style="margin-top:20px;">
+        <h3>Current Slides</h3>
+        <div id="slidesList" class="slides-list"><p class="empty-hint">Loading slides...</p></div>
+      </div>
+    </div>
+
+    <div class="admin-panel" id="panel-ticker">
+      <div class="admin-card">
+        <div class="panel-head">
+          <h3><i class="fa-solid fa-bullhorn"></i> Live Ticker &amp; Alerts</h3>
+          <small>Manage the scrolling ticker bar at the top of the website.</small>
+        </div>
+        <div id="tickerItems" class="ticker-items-list"></div>
+        <div class="form-row" style="margin-top:16px;">
+          <div class="form-group" style="flex:1;">
+            <label>New Message</label>
+            <input type="text" id="newTickerText" placeholder="Type announcement...">
+          </div>
+          <button class="btn-primary" style="align-self:flex-end;" onclick="addTickerItem()"><i class="fa-solid fa-plus"></i> Add</button>
+        </div>
+        <button class="btn-success" style="margin-top:16px;" onclick="saveTickerSettings()">
+          <i class="fa-solid fa-floppy-disk"></i> Save Ticker Messages
+        </button>
+      </div>
+    </div>
+
+    <div class="admin-panel" id="panel-contact">
+      <div class="admin-card">
+        <div class="panel-head">
+          <h3><i class="fa-solid fa-address-card"></i> Contact Information</h3>
+          <small>These values appear on the public Contact page.</small>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label><i class="fa-solid fa-phone"></i> Phone Number</label>
+            <input type="text" id="contactPhone" placeholder="+92-21-111-999-000">
+          </div>
+          <div class="form-group">
+            <label><i class="fa-solid fa-headset"></i> 24/7 Helpline</label>
+            <input type="text" id="contactHelpline" placeholder="0800-55555">
+          </div>
+        </div>
+        <div class="form-group">
+          <label><i class="fa-solid fa-envelope"></i> Support Email</label>
+          <input type="email" id="contactEmail" placeholder="support@khidmatai.pk">
+        </div>
+        <div class="form-group">
+          <label><i class="fa-solid fa-location-dot"></i> Office Address</label>
+          <input type="text" id="contactAddress" placeholder="Office address">
+        </div>
+        <button class="btn-success" onclick="saveContactSettings()">
+          <i class="fa-solid fa-floppy-disk"></i> Save Settings
+        </button>
+        <div id="contactSaveMsg" class="save-msg" style="display:none;">Settings saved successfully.</div>
+      </div>
+    </div>
+
+    <div class="admin-panel" id="panel-organizations">
+      <div class="admin-card">
+        <div class="panel-head">
+          <h3><i class="fa-solid fa-building"></i> Organization Registrations</h3>
+          <small>Review and approve or reject registration requests.</small>
+        </div>
+        <div class="org-filter-tabs">
+          <button class="tab-btn active" onclick="filterOrgs('all', this)">All</button>
+          <button class="tab-btn" onclick="filterOrgs('pending', this)">Pending <span id="pendingCount">0</span></button>
+          <button class="tab-btn" onclick="filterOrgs('approved', this)">Approved</button>
+          <button class="tab-btn" onclick="filterOrgs('rejected', this)">Rejected</button>
+        </div>
+        <div id="orgsList" class="orgs-list"><p class="empty-hint">Loading registrations...</p></div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div id="toast" class="admin-toast" style="display:none;"></div>
+<script src="/static/admin.js"></script>
+</body>
+</html>
