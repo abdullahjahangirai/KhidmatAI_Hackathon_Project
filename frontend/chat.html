@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Assistant — KhidmatAI</title>
+  <link rel="icon" type="image/png" href="/static/assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/khidmat.css">
+</head>
+<body class="chat-page-body">
+<div class="chat-page">
+
+  <header class="chat-topbar">
+    <div class="chat-topbar-left">
+      <button class="icon-btn-round chat-sidebar-toggle" id="chatSidebarToggle" title="Conversations" aria-label="Toggle conversations sidebar"><i class="fa-solid fa-bars"></i></button>
+      <a class="chat-topbar-brand" href="/"><img src="/static/assets/logo.png" alt="KhidmatAI logo"><span>Khidmat<span style="color:#087b5a">AI</span></span></a>
+    </div>
+    <nav class="chat-topbar-links">
+      <a href="/dashboard">Dashboard</a>
+      <a href="/dashboard#programs">Programs</a>
+      <a href="/dashboard#eligibility">Eligibility</a>
+    </nav>
+    <div class="chat-topbar-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><span id="themeIcon">☾</span></button>
+      <div class="chat-user-chip">
+        <span class="avatar small" id="chatAvatar">K</span>
+        <span id="chatUserName">User</span>
+      </div>
+      <button class="tts-btn" id="ttsToggle" title="Voice replies on/off" aria-label="Toggle voice replies"><i class="fa-solid fa-volume-high"></i></button>
+      <a class="pill-btn" href="/dashboard" title="Back to dashboard"><i class="fa-solid fa-arrow-left"></i> Dashboard</a>
+    </div>
+  </header>
+
+  <div class="chat-body-row">
+
+    <aside class="chat-sidebar" id="chatSidebar">
+      <button class="chat-new-btn" id="newChatBtn" type="button"><i class="fa-solid fa-plus"></i> New Chat</button>
+
+      <div class="chat-sidebar-section">
+        <h4>Recent conversations</h4>
+        <div class="chat-recent-list" id="recentChats"></div>
+      </div>
+
+      <div class="chat-sidebar-section">
+        <h4>Welfare resources</h4>
+        <nav class="chat-resources">
+          <a href="/dashboard#programs"><i class="fa-solid fa-folder-open"></i> Welfare programs</a>
+          <a href="/dashboard#eligibility"><i class="fa-solid fa-clipboard-check"></i> Eligibility checker</a>
+          <a href="/dashboard#organizations"><i class="fa-solid fa-building-columns"></i> Organizations</a>
+          <a href="/dashboard#nearby"><i class="fa-solid fa-map-location-dot"></i> Nearby help</a>
+          <a href="/dashboard#saved"><i class="fa-solid fa-bookmark"></i> Saved programs</a>
+          <a href="/dashboard#emergency"><i class="fa-solid fa-kit-medical"></i> Emergency helplines</a>
+          <a href="https://www.bisp.gov.pk/" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> BISP official</a>
+          <a href="https://ehsaas.pk/" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Ehsaas program</a>
+          <a href="https://pbm.gov.pk/" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Pakistan Bait-ul-Mal</a>
+        </nav>
+      </div>
+
+      <p class="chat-sidebar-note"><i class="fa-solid fa-shield-halved"></i> Answers always link official sources.</p>
+    </aside>
+
+    <main class="chat-main">
+      <div class="chat-scroll" id="chatScroll">
+        <div class="chat-welcome" id="chatWelcome">
+          <div class="chat-welcome-orb"><i class="fa-solid fa-hand-holding-heart"></i></div>
+          <h1>Ask KhidmatAI</h1>
+          <p>Describe your situation in plain words — scholarships, medical help, rations, financial aid or nearby services — and get clear, source-linked guidance.</p>
+          <div class="suggestion-row" id="suggestionRow">
+            <button class="suggestion" type="button">I need a scholarship for university in Karachi</button>
+            <button class="suggestion" type="button">Where can I get free medical treatment in Lahore?</button>
+            <button class="suggestion" type="button">How do I apply for BISP Kafaalat?</button>
+            <button class="suggestion" type="button">I need ration support for my family</button>
+          </div>
+        </div>
+      </div>
+
+      <form class="chat-composer-bar" id="chatComposer">
+        <button type="button" class="icon-btn-round mic-btn" id="micBtn" title="Voice input" aria-label="Voice input"><i class="fa-solid fa-microphone"></i></button>
+        <textarea id="chatInput" rows="1" placeholder="Ask about welfare programs, scholarships, healthcare..." aria-label="Your message"></textarea>
+        <button type="submit" class="icon-btn-round send-btn" id="sendBtn" title="Send" aria-label="Send message"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+      <p class="chat-disclaimer">KhidmatAI gives guidance with official sources — always confirm details on the official website before applying.</p>
+    </main>
+
+  </div>
+
+</div>
+<script src="/static/chat.js"></script>
+</body>
+</html>

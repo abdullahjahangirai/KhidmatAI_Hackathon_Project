@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Organization Dashboard — KhidmatAI</title>
+  <link rel="icon" type="image/png" href="/static/assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/khidmat.css">
+</head>
+<body class="dashboard-page">
+<div class="dashboard-shell">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="dashboard-sidebar" id="dashboardSidebar">
+    <a class="dashboard-brand" href="/"><img src="/static/assets/logo.png" alt="KhidmatAI"></a>
+
+    <div class="sidebar-label">MENU</div>
+    <nav class="dashboard-nav">
+      <a class="dash-nav-link active" href="#overview" data-section="overview"><i class="fa-solid fa-house nav-icon"></i> <span>Overview</span></a>
+      <a class="dash-nav-link" href="#posts" data-section="posts"><i class="fa-solid fa-bullhorn nav-icon"></i> <span>My Posts</span></a>
+    </nav>
+
+    <div class="sidebar-label sidebar-label-support">ORGANIZATION</div>
+    <nav class="dashboard-nav">
+      <a class="dash-nav-link" href="#profile" data-section="profile"><i class="fa-solid fa-building nav-icon"></i> <span>Org Profile</span></a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <div class="sidebar-help-card">
+        <div class="help-orb"><i class="fa-solid fa-shield-halved"></i></div>
+        <strong>Verified Organization</strong>
+        <p>Your posts are reviewed by the KhidmatAI admin before going live to citizens.</p>
+      </div>
+      <a class="sidebar-user" href="#profile" data-section="profile">
+        <span class="avatar small" id="sidebarOrgAvatar">O</span>
+        <span class="profile-copy"><strong id="sidebarOrgName">Organization</strong><span id="sidebarOrgEmail">org@email.com</span></span>
+        <i class="fa-solid fa-chevron-right user-arrow"></i>
+      </a>
+      <button class="dash-logout-btn" id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> <span>Log out</span></button>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <div class="dashboard-main">
+    <header class="dashboard-topbar">
+      <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar"><i class="fa-solid fa-bars"></i></button>
+      <div class="topbar-breadcrumb"><b>KhidmatAI</b> <i class="fa-solid fa-chevron-right" style="font-size:8px;"></i> <strong id="pageTitle">Overview</strong></div>
+      <div class="topbar-actions">
+        <a class="topbar-chat-btn" href="/"><i class="fa-solid fa-house"></i> <span>Home</span></a>
+        <button class="theme-toggle dashboard-theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><span id="themeIcon">☾</span></button>
+        <div class="topbar-profile">
+          <button class="topbar-profile-btn" id="topbarProfileBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Account menu">
+            <span class="avatar small" id="topbarOrgAvatar">O</span>
+            <span class="profile-copy"><strong id="topbarOrgName">Organization</strong><span id="topbarOrgType"></span></span>
+            <i class="fa-solid fa-chevron-down topbar-caret"></i>
+          </button>
+          <div class="topbar-dropdown" id="topbarDropdown" role="menu">
+            <div class="topbar-dropdown-head">
+              <strong id="dropdownOrgName">Organization</strong>
+              <span id="dropdownOrgEmail">org@email.com</span>
+            </div>
+            <button class="topbar-dropdown-item" id="dropdownProfile" type="button" role="menuitem">
+              <i class="fa-solid fa-building"></i> <span>Organization profile</span>
+            </button>
+            <button class="topbar-dropdown-item danger" id="dropdownLogout" type="button" role="menuitem">
+              <i class="fa-solid fa-right-from-bracket"></i> <span>Log out</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="dashboard-content">
+
+      <!-- ===== OVERVIEW ===== -->
+      <section class="dashboard-section active-section" id="overview">
+        <div class="org-hero">
+          <div>
+            <span class="eyebrow-pill">ORGANIZATION PORTAL</span>
+            <h1 id="orgWelcomeTitle">Welcome</h1>
+            <p>Share your welfare programs, scholarships, healthcare services, trainings and events with citizens across Pakistan. Every post is verified by the KhidmatAI admin before it goes live.</p>
+          </div>
+          <span class="verified-org-badge" id="orgVerifiedBadge"><i class="fa-solid fa-shield-halved"></i> Verified Organization</span>
+        </div>
+
+        <div class="org-stats">
+          <div class="org-stat"><span class="org-stat-icon blue"><i class="fa-solid fa-bullhorn"></i></span><span><strong id="statTotalPosts">0</strong><span>Total posts</span></span></div>
+          <div class="org-stat"><span class="org-stat-icon green"><i class="fa-solid fa-circle-check"></i></span><span><strong id="statApprovedPosts">0</strong><span>Live on KhidmatAI</span></span></div>
+          <div class="org-stat"><span class="org-stat-icon amber"><i class="fa-solid fa-hourglass-half"></i></span><span><strong id="statPendingPosts">0</strong><span>Awaiting review</span></span></div>
+          <div class="org-stat"><span class="org-stat-icon red"><i class="fa-solid fa-circle-xmark"></i></span><span><strong id="statRejectedPosts">0</strong><span>Rejected</span></span></div>
+        </div>
+
+        <div class="quick-grid" style="margin-top:22px;">
+          <div class="quick-card" data-section="posts"><span class="quick-icon green"><i class="fa-solid fa-plus"></i></span><span><strong>Create a new post</strong><small>Announce a program, event or assistance</small></span><b>→</b></div>
+          <div class="quick-card" data-section="posts"><span class="quick-icon gold"><i class="fa-solid fa-bullhorn"></i></span><span><strong>Manage my posts</strong><small>Edit, track status or remove posts</small></span><b>→</b></div>
+          <div class="quick-card" data-section="profile"><span class="quick-icon blue"><i class="fa-solid fa-building"></i></span><span><strong>Update org profile</strong><small>Services, hours, pricing and contacts</small></span><b>→</b></div>
+          <div class="quick-card" id="quickViewEco"><span class="quick-icon teal"><i class="fa-solid fa-users"></i></span><span><strong>How citizens see you</strong><small>Open the public Organizations directory</small></span><b>→</b></div>
+        </div>
+
+        <div class="org-note" style="margin-top:22px;">
+          <i class="fa-solid fa-circle-info"></i>
+          <span><strong>How verification works:</strong> when you publish a post it enters <em>pending review</em>. The KhidmatAI admin checks the details, then approves it for the public directory or rejects it with the post returned to you for corrections. Editing a live post sends it back to review automatically.</span>
+        </div>
+      </section>
+
+      <!-- ===== MY POSTS ===== -->
+      <section class="dashboard-section" id="posts">
+        <div class="inner-page-header">
+          <h1>My Posts</h1>
+          <p>Publish welfare programs, scholarships, healthcare services, trainings, events and announcements.</p>
+        </div>
+        <div class="filters-bar">
+          <button class="pill-btn solid" id="newPostBtn"><i class="fa-solid fa-plus"></i> New post</button>
+        </div>
+        <div class="program-list" id="orgPostsList"></div>
+      </section>
+
+      <!-- ===== ORG PROFILE ===== -->
+      <section class="dashboard-section" id="profile">
+        <div class="inner-page-header">
+          <h1>Organization Profile</h1>
+          <p>Details citizens see in the KhidmatAI Organizations directory.</p>
+        </div>
+        <div class="checker-card">
+          <h2 style="margin-top:0;">Public details</h2>
+          <div class="form-row-2">
+            <div class="auth-field"><label class="field-label" for="orgName">Organization name *</label><input class="kh-input" type="text" id="orgName" placeholder="e.g. Alkhidmat Foundation Karachi"></div>
+            <div class="auth-field"><label class="field-label" for="orgType">Type</label>
+              <select class="kh-select" id="orgType">
+                <option value="University">University</option>
+                <option value="Hospital">Hospital</option>
+                <option value="Government">Government</option>
+                <option value="NGO">NGO</option>
+                <option value="Welfare">Welfare</option>
+                <option value="Private">Private</option>
+                <option value="Community">Community</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row-2">
+            <div class="auth-field"><label class="field-label" for="orgContact">Contact phone</label><input class="kh-input" type="text" id="orgContact" placeholder="021-111-000-000"></div>
+            <div class="auth-field"><label class="field-label" for="orgWebsite">Website</label><input class="kh-input" type="url" id="orgWebsite" placeholder="https://example.org.pk"></div>
+          </div>
+          <div class="form-row-2">
+            <div class="auth-field"><label class="field-label" for="orgCity">City</label><input class="kh-input" type="text" id="orgCity" placeholder="Karachi"></div>
+            <div class="auth-field"><label class="field-label" for="orgProvince">Province</label>
+              <select class="kh-select" id="orgProvince">
+                <option value="Sindh">Sindh</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Khyber Pakhtunkhwa">Khyber Pakhtunkhwa</option>
+                <option value="Balochistan">Balochistan</option>
+                <option value="Gilgit-Baltistan">Gilgit-Baltistan</option>
+                <option value="Azad Jammu & Kashmir">Azad Jammu & Kashmir</option>
+                <option value="Islamabad Capital Territory">Islamabad Capital Territory</option>
+              </select>
+            </div>
+          </div>
+          <div class="auth-field"><label class="field-label" for="orgAddress">Address</label><input class="kh-input" type="text" id="orgAddress" placeholder="Street, area, city"></div>
+          <div class="auth-field"><label class="field-label" for="orgServices">Services offered</label><input class="kh-input" type="text" id="orgServices" placeholder="Free dialysis; ration distribution; IT training"></div>
+          <div class="form-row-2">
+            <div class="auth-field"><label class="field-label" for="orgHours">Opening hours</label><input class="kh-input" type="text" id="orgHours" placeholder="Mon–Sat, 9:00 AM – 5:00 PM"></div>
+            <div class="auth-field"><label class="field-label" for="orgPricing">Service status</label>
+              <select class="kh-select" id="orgPricing">
+                <option value="Free">Free</option>
+                <option value="Subsidized">Subsidized</option>
+                <option value="Paid">Paid</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row-2">
+            <div class="auth-field"><label class="field-label" for="orgDiscount">Discount offered (optional)</label><input class="kh-input" type="text" id="orgDiscount" placeholder="e.g. 20% for BISP families"></div>
+            <div class="auth-field"></div>
+          </div>
+          <div class="auth-field"><label class="field-label" for="orgDescription">Description</label><textarea class="kh-input kh-textarea" id="orgDescription" placeholder="Tell citizens what your organization does…"></textarea></div>
+          <button class="form-submit" id="saveProfileBtn" style="max-width:280px;"><i class="fa-solid fa-floppy-disk"></i> Save profile</button>
+        </div>
+
+        <div class="checker-card" style="margin-top:20px;">
+          <h2 style="margin-top:0;">Account</h2>
+          <div class="form-row-2">
+            <div class="org-readonly"><strong>Email (login)</strong><span id="orgEmailRo">—</span></div>
+            <div class="org-readonly"><strong>Verification status</strong><span id="orgStatusRo">—</span></div>
+          </div>
+          <div class="form-row-2">
+            <div class="org-readonly"><strong>Registered on</strong><span id="orgSinceRo">—</span></div>
+            <div class="org-readonly"><strong>Last reviewed</strong><span id="orgReviewedRo">—</span></div>
+          </div>
+        </div>
+
+        <button class="dash-logout-btn" id="logoutBtn2" style="max-width:280px;margin-top:22px;"><i class="fa-solid fa-right-from-bracket"></i> <span>Log out of KhidmatAI</span></button>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<!-- ============ POST EDITOR MODAL ============ -->
+<div class="modal-overlay" id="postModal" style="display:none;">
+  <div class="modal-box">
+    <button class="modal-close" data-close="postModal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <h3 id="postModalTitle">New post</h3>
+    <p class="modal-sub" id="postModalSub">Publish a welfare program, event or announcement for citizens.</p>
+
+    <div class="auth-field"><label class="field-label" for="postTitle">Title *</label><input class="kh-input" type="text" id="postTitle" placeholder="e.g. Free IT Training Batch — Fall Intake"></div>
+
+    <div class="form-row-2">
+      <div class="auth-field"><label class="field-label" for="postCategory">Category</label>
+        <select class="kh-select" id="postCategory">
+          <option value="Education">Education</option>
+          <option value="Healthcare">Healthcare</option>
+          <option value="Financial Aid">Financial Aid</option>
+          <option value="Food Support">Food Support</option>
+          <option value="Employment">Employment</option>
+          <option value="Skills Training">Skills Training</option>
+          <option value="Disability">Disability</option>
+          <option value="Disaster Relief">Disaster Relief</option>
+          <option value="General">General</option>
+        </select>
+      </div>
+      <div class="auth-field"><label class="field-label" for="postType">Post type</label>
+        <select class="kh-select" id="postType">
+          <option value="Program">Program</option>
+          <option value="Scholarship">Scholarship</option>
+          <option value="Training">Training</option>
+          <option value="Event">Event</option>
+          <option value="Assistance">Assistance</option>
+          <option value="Announcement">Announcement</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="auth-field"><label class="field-label" for="postDescription">Description</label><textarea class="kh-input kh-textarea" id="postDescription" placeholder="What are you offering, who is it for, and how does it help?"></textarea></div>
+
+    <div class="form-row-2">
+      <div class="auth-field"><label class="field-label" for="postEligibility">Eligibility (one per line)</label><textarea class="kh-input kh-textarea" id="postEligibility" placeholder="Youth aged 18–30&#10;Karachi residents&#10;Matric or above"></textarea></div>
+      <div class="auth-field"><label class="field-label" for="postDocuments">Documents required (one per line)</label><textarea class="kh-input kh-textarea" id="postDocuments" placeholder="CNIC copy&#10;Matric certificate&#10;2 passport photos"></textarea></div>
+    </div>
+
+    <div class="form-row-2">
+      <div class="auth-field"><label class="field-label" for="postLocation">Location</label><input class="kh-input" type="text" id="postLocation" placeholder="e.g. Gulshan-e-Iqbal, Karachi"></div>
+      <div class="auth-field"><label class="field-label" for="postPricing">Cost</label>
+        <select class="kh-select" id="postPricing">
+          <option value="Free">Free</option>
+          <option value="Subsidized">Subsidized</option>
+          <option value="Paid">Paid</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-row-2">
+      <div class="auth-field"><label class="field-label" for="postContact">Contact</label><input class="kh-input" type="text" id="postContact" placeholder="Phone / WhatsApp"></div>
+      <div class="auth-field"><label class="field-label" for="postWebsite">Website / link</label><input class="kh-input" type="url" id="postWebsite" placeholder="https://example.org.pk/program"></div>
+    </div>
+
+    <div class="wizard-actions">
+      <button class="secondary-dashboard-btn" data-close="postModal">Cancel</button>
+      <button class="primary-dashboard-btn" id="savePostBtn"><i class="fa-solid fa-paper-plane"></i> Submit for verification</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="orgToast"></div>
+
+<script src="/static/org.js"></script>
+</body>
+</html>

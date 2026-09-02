@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Create account — KhidmatAI</title>
+  <link rel="icon" type="image/png" href="/static/assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/khidmat.css">
+</head>
+<body class="auth-page">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/"><img src="/static/assets/logo.png" alt="KhidmatAI logo"><span>Khidmat<span>AI</span></span></a>
+    <nav class="main-nav">
+      <a href="/#about">About</a>
+      <a href="/#services">Services</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><span id="themeIcon">☾</span></button>
+    </nav>
+  </div>
+</header>
+
+<main class="auth-main">
+  <div class="auth-card">
+    <div class="auth-head">
+      <img class="auth-logo" src="/static/assets/logo.png" alt="KhidmatAI">
+      <h1>Create your account</h1>
+      <p>Join as a citizen to find support — or register your organization.</p>
+    </div>
+
+    <div class="auth-tabs" role="tablist">
+      <button class="auth-tab active" id="tabIndividual" type="button" role="tab" aria-selected="true">Individual</button>
+      <button class="auth-tab" id="tabOrganization" type="button" role="tab" aria-selected="false">Organization</button>
+    </div>
+
+    <div class="auth-message" id="authMessage" role="alert"></div>
+
+    <!-- Individual registration -->
+    <form id="registerForm" novalidate>
+      <div class="auth-field">
+        <label class="field-label" for="regName">Full name</label>
+        <input class="kh-input" type="text" id="regName" placeholder="Your full name" autocomplete="name" required>
+      </div>
+      <div class="auth-field">
+        <label class="field-label" for="regEmail">Email</label>
+        <input class="kh-input" type="email" id="regEmail" placeholder="you@email.com" autocomplete="email" required>
+      </div>
+      <div class="form-row-2">
+        <div class="auth-field">
+          <label class="field-label" for="regPhone">Phone</label>
+          <input class="kh-input" type="tel" id="regPhone" placeholder="03XX-XXXXXXX" autocomplete="tel">
+        </div>
+        <div class="auth-field">
+          <label class="field-label" for="regCity">City</label>
+          <input class="kh-input" type="text" id="regCity" placeholder="Karachi" autocomplete="address-level2">
+        </div>
+      </div>
+      <div class="form-row-2">
+        <div class="auth-field">
+          <label class="field-label" for="regCnic">CNIC <small style="text-transform:none;font-weight:600;">(optional)</small></label>
+          <input class="kh-input" type="text" id="regCnic" placeholder="12345-1234567-1">
+        </div>
+        <div class="auth-field">
+          <label class="field-label" for="regPassword">Password</label>
+          <div class="password-wrap">
+            <input class="kh-input" type="password" id="regPassword" placeholder="Min 4 characters" autocomplete="new-password" required>
+            <button type="button" class="password-toggle" data-target="regPassword">Show</button>
+          </div>
+          <div class="strength-meter"><span id="strengthBar"></span></div>
+          <div class="strength-text" id="strengthText">Use at least 8 characters.</div>
+        </div>
+      </div>
+      <div class="auth-field">
+        <label class="field-label" for="regConfirm">Confirm password</label>
+        <div class="password-wrap">
+          <input class="kh-input" type="password" id="regConfirm" placeholder="Repeat your password" autocomplete="new-password" required>
+          <button type="button" class="password-toggle" data-target="regConfirm">Show</button>
+        </div>
+      </div>
+      <label class="terms-row">
+        <input type="checkbox" id="acceptTerms">
+        <span>I agree to the Terms of Service and Privacy Policy of KhidmatAI.</span>
+      </label>
+      <button type="submit" class="form-submit">Create account</button>
+    </form>
+
+    <!-- Organization registration -->
+    <form id="orgForm" style="display:none;" novalidate>
+      <div class="auth-field">
+        <label class="field-label" for="regOrgName">Organization name</label>
+        <input class="kh-input" type="text" id="regOrgName" placeholder="e.g. Alkhidmat Foundation" required>
+      </div>
+      <div class="form-row-2">
+        <div class="auth-field">
+          <label class="field-label" for="regOrgType">Organization type</label>
+          <select class="kh-select" id="regOrgType">
+            <option value="NGO">NGO</option>
+            <option value="Government">Government</option>
+            <option value="Trust">Trust / Waqf</option>
+            <option value="Private">Private</option>
+            <option value="International">International</option>
+          </select>
+        </div>
+        <div class="auth-field">
+          <label class="field-label" for="regOrgProvince">Province</label>
+          <select class="kh-select" id="regOrgProvince">
+            <option value="Sindh">Sindh</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Khyber Pakhtunkhwa">Khyber Pakhtunkhwa</option>
+            <option value="Balochistan">Balochistan</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Gilgit-Baltistan">Gilgit-Baltistan</option>
+            <option value="AJK">Azad Jammu & Kashmir</option>
+          </select>
+        </div>
+      </div>
+      <div class="auth-field">
+        <label class="field-label" for="regOrgContact">Contact person</label>
+        <input class="kh-input" type="text" id="regOrgContact" placeholder="Person we can reach" required>
+      </div>
+      <div class="auth-field">
+        <label class="field-label" for="regOrgEmail">Official email</label>
+        <input class="kh-input" type="email" id="regOrgEmail" placeholder="org@example.org" required>
+      </div>
+      <div class="auth-field">
+        <label class="field-label" for="regOrgPassword">Password</label>
+        <div class="password-wrap">
+          <input class="kh-input" type="password" id="regOrgPassword" placeholder="For organization login" autocomplete="new-password">
+          <button type="button" class="password-toggle" data-target="regOrgPassword">Show</button>
+        </div>
+      </div>
+      <div class="auth-field">
+        <label class="field-label" for="regOrgAddress">Address</label>
+        <input class="kh-input" type="text" id="regOrgAddress" placeholder="Street, area, city" required>
+      </div>
+      <div class="auth-field">
+        <label class="field-label" for="regOrgDesc">Description</label>
+        <textarea class="kh-textarea" id="regOrgDesc" placeholder="What does your organization do? (welfare programs, services...)"></textarea>
+      </div>
+      <p class="terms-row" style="margin-top:2px;">Organization accounts are reviewed by the KhidmatAI admin team before login is enabled.</p>
+      <button type="submit" class="form-submit">Submit organization</button>
+    </form>
+
+    <p class="auth-alt">Already have an account? <a href="/login">Sign in</a></p>
+    <p class="auth-alt"><a href="/">← Back to home</a></p>
+  </div>
+</main>
+<script src="/static/auth.js"></script>
+</body>
+</html>

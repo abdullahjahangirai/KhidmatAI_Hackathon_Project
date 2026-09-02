@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sign in — KhidmatAI</title>
+  <link rel="icon" type="image/png" href="/static/assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/khidmat.css">
+</head>
+<body class="auth-page">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/"><img src="/static/assets/logo.png" alt="KhidmatAI logo"><span>Khidmat<span>AI</span></span></a>
+    <nav class="main-nav">
+      <a href="/#about">About</a>
+      <a href="/#services">Services</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><span id="themeIcon">☾</span></button>
+    </nav>
+  </div>
+</header>
+
+<main class="auth-main">
+  <div class="auth-card">
+    <div class="auth-head">
+      <img class="auth-logo" src="/static/assets/logo.png" alt="KhidmatAI">
+      <h1>Welcome back</h1>
+      <p>Sign in to reach your dashboard, AI assistant and applications.</p>
+    </div>
+
+    <div class="auth-tabs" role="tablist">
+      <button class="auth-tab active" id="loginTabIndividual" type="button" role="tab" aria-selected="true">Individual</button>
+      <button class="auth-tab" id="loginTabOrganization" type="button" role="tab" aria-selected="false">Organization</button>
+    </div>
+
+    <div class="auth-message" id="authMessage" role="alert"></div>
+
+    <form id="loginForm" novalidate>
+      <div class="auth-field">
+        <label class="field-label" for="loginEmail">Email</label>
+        <input class="kh-input" type="email" id="loginEmail" placeholder="you@email.com" autocomplete="email" required>
+      </div>
+      <div class="auth-field">
+        <label class="field-label" for="loginPassword">Password</label>
+        <div class="password-wrap">
+          <input class="kh-input" type="password" id="loginPassword" placeholder="Your password" autocomplete="current-password" required>
+          <button type="button" class="password-toggle" data-target="loginPassword">Show</button>
+        </div>
+      </div>
+      <button type="submit" class="form-submit">Sign in</button>
+    </form>
+
+    <form id="orgLoginForm" novalidate style="display:none;">
+      <div class="auth-field">
+        <label class="field-label" for="orgLoginEmail">Organization email</label>
+        <input class="kh-input" type="email" id="orgLoginEmail" placeholder="org@example.org" autocomplete="email" required>
+      </div>
+      <div class="auth-field">
+        <label class="field-label" for="orgLoginPassword">Password</label>
+        <div class="password-wrap">
+          <input class="kh-input" type="password" id="orgLoginPassword" placeholder="Your password" autocomplete="current-password" required>
+          <button type="button" class="password-toggle" data-target="orgLoginPassword">Show</button>
+        </div>
+      </div>
+      <button type="submit" class="form-submit">Sign in to organization portal</button>
+    </form>
+
+    <p class="auth-alt">New to KhidmatAI? <a href="/register">Create an account</a></p>
+    <p class="auth-alt"><a href="/">← Back to home</a></p>
+  </div>
+</main>
+<script src="/static/auth.js"></script>
+</body>
+</html>
